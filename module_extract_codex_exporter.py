@@ -4,6 +4,9 @@ import json
 import random
 import string
 import time
+import hashlib
+
+enc = "utf-8"
 
 IDs = []
 
@@ -13,6 +16,54 @@ def generateID(n):
         if not id in IDs:
             IDs.append(id)
             return id
+
+
+def generateHashFromURI(uri):
+    print(uri)
+    hash = hashlib.md5(uri.encode("latin-1"))
+
+    hexstring = hash.hexdigest()
+    #print(hexstring)
+
+    bytes = hash.digest()
+
+    out_bytes = []
+    for i in range(0, len(bytes)):
+        # Insert 0xc2 for chars over 0x7f
+        #if bytes [i] > 0x7f:
+        #    out_bytes.append(0xc2)
+        ## Escape quotation marks with char 0x22
+        #if bytes [i] == 0x22:
+        #    out_bytes.append(0x5c)
+        #if bytes [i] <= 0x1f:
+        if bytes [i] == 0x09:
+            out_bytes.append(0x5c)
+            out_bytes.append(0x74)
+        elif bytes [i] == 0x0c:
+            out_bytes.append(0x5c)
+            out_bytes.append(0x66)
+        elif bytes [i] <= 0x20 or (bytes [i] >= 0x80 and bytes [i] <= 0xa0):
+            out_bytes.append(0x5c)
+            out_bytes.append(0x75)
+            out_bytes.append(0x30)
+            out_bytes.append(0x30)
+            left = bytes [i] >> 4
+            if left < 10:
+                out_bytes.append(0x30 + left)
+            else:
+                out_bytes.append(0x61 + left - 10)
+            right = bytes [i] & 0xf
+            if right < 10:
+                out_bytes.append(0x30 + right)
+            else:
+                out_bytes.append(0x61 + right - 10)
+        else:
+            #print(bytes[i], "to", chr(bytes [i]).encode('utf-8'))
+            converted_bytes = bytearray(chr(bytes [i]).encode('utf-8'))
+            out_bytes += converted_bytes
+
+    return out_bytes
+
 
 def extract_section(lines, i, seperator):
     i += 1
@@ -25,13 +76,24 @@ def extract_section(lines, i, seperator):
     return contents, i
 
 
+def initializeDB():
+    with open("./data/db/pages.db", "w+", encoding=enc) as f:
+        f.write("")
+    with open("./data/db/pagesOrder.db", "w+", encoding=enc) as f:
+        f.write("")
+    with open("./data/db/aliases.db", "w+", encoding=enc) as f:
+        f.write("")
+    with open("./data/db/files.db", "w+", encoding=enc) as f:
+        f.write("")
+
+
 def emitHeader(name):
     data = {}
     data["text"] = name
     data["level"] = 2
 
     header = {}
-    header["id"] = generateID(11)
+    header["id"] = generateID(10)
     header["type"] = "header"
     header["data"] = data
 
@@ -43,7 +105,7 @@ def emitParagraph(text):
     data["text"] = text
 
     header = {}
-    header["id"] = generateID(11)
+    header["id"] = generateID(10)
     header["type"] = "paragraph"
     header["data"] = data
 
@@ -56,11 +118,65 @@ def emitList(style, items):
     data["items"] = items
 
     header = {}
-    header["id"] = generateID(11)
+    header["id"] = generateID(10)
     header["type"] = "list"
     header["data"] = data
 
     return header
+
+
+def emitPage(title, blocks):
+    page = None
+
+    with open("./data/db/pages.db", "a", encoding=enc) as f:
+        id = generateID(16)
+        uri = title.lower().replace(" ", "-").replace("—", "-").replace("–", "-")
+
+        body = {}
+        body["time"] = int(time.time())
+        body["blocks"] = blocks
+
+        page = {}
+        page["_id"] = id
+        page["title"] = title
+        page["uri"] = uri
+        page["body"] = body
+
+        f.write(json.dumps(page) + "\n")
+
+    return page
+
+
+def emitSubPages(parent, children):
+    with open("./data/db/pagesOrder.db", "a", encoding=enc) as f:
+        subpage = {}
+        subpage["_id"] = generateID(16)
+        subpage["page"] = "0" if parent is None else parent["_id"]
+        subpage["order"] = [page["_id"] for page in children]
+        
+        f.write(json.dumps(subpage) + "\n")
+
+
+def emitAlias(page):
+    alias = {}
+    alias["_id"] = generateID(16)
+    alias["id"] = page["_id"]
+    alias["type"] = "page"
+    alias["hash"] = "$"
+    alias["deprecated"] = False
+
+    dump = json.dumps(alias)
+    split = dump.split("$")
+    
+    with open("./data/db/aliases.db", "a", encoding=enc) as f:
+        f.write(split [0])
+
+    with open("./data/db/aliases.db", "ab") as f:
+        out_bytes = generateHashFromURI(page["uri"])
+        f.write(bytearray(out_bytes))
+
+    with open("./data/db/aliases.db", "a", encoding=enc) as f:
+        f.write(split [1] + "\n")
 
 
 pdf = pdfium.PdfDocument("./MHB_BSC_MSC_Informatik.pdf")
@@ -84,14 +200,21 @@ for i in range(0, n_pages):
 
 print("Extracted", len(lines), "lines of text")
 
-# List of all parsed modules
-modules = []
+# List of all parsed pages
+pages = []
 
 # Current modules that is being parsed
 module = {}
+page = None
 
-with open("./output/pages.db", "w+", encoding="utf-8") as f:
-    f.write("")
+# Create initial empty files for the DB
+initializeDB()
+
+# Generate Home Page
+home = emitPage("Modul Reviews", [emitHeader("Modul Reviews")])
+
+# Emit Home Page at Root
+emitSubPages(None, [home])
 
 # Traverse the list and attempt to extract module data by keywords
 for i in range(0, len(lines)):
@@ -99,8 +222,8 @@ for i in range(0, len(lines)):
 
     # Start of new Modul Definition
     if line.startswith("Modulbeschreibung"):
-        if len(module) > 0:
-            modules.append(module)
+        if len(module) > 0 and not page is None:
+            pages.append(page)
         module = {}
 
     if line.startswith("Modulname"):
@@ -152,7 +275,6 @@ for i in range(0, len(lines)):
         kommentar, i = extract_section(lines, i, "Modulbeschreibung")
         
         kurs = {}
-
         kurs["Kurse_des_Moduls"] = kurse
         kurs["Lerninhalt"] = lerninhalt
         kurs["Qualifikationsziele_Lernergebnisse"] = ziele
@@ -166,26 +288,38 @@ for i in range(0, len(lines)):
 
         module["kurs"] = kurs
 
-        id = generateID(17)
-        uri = module["Modulname"].lower().replace(" ", "-")
-
         # Translate into Codex DB Format
         blocks = []
-
         blocks.append(emitHeader(module["Modulname"]))
-        blocks.append(emitList("unordered", ["Modul Nr.: " + module["Modul Nr."]]))
+        
+        blocks.append(emitHeader("Fakten"))
+        blocks.append(emitList("unordered", [
+            "Modul CP: " + module["Kreditpunkte"], 
+            "TuCan Kennung: " + module["Modul Nr."],
+            #"Turnus: " + module["Angebotsturnus"],
+            "Fachbereich: FB-20",
+            "Lehrende: " + module["Modulverantwortliche Person"],
+            "Benotung: " + kurs["Benotung"]
+        ]))
 
-        body = {}
-        body["time"] = int(time.time())
-        body["blocks"] = blocks
+        blocks.append(emitHeader("Inhalt"))
+        blocks.append(emitParagraph(kurs["Lerninhalt"]))
 
-        entry = {}
-        entry["_id"] = id
-        entry["title"] = module["Modulname"]
-        entry["uri"] = uri
-        entry["body"] = body
+        blocks.append(emitHeader("Qualifikationsziele & Lernergebnisse"))
+        blocks.append(emitParagraph(kurs["Qualifikationsziele_Lernergebnisse"]))
 
-        with open("./output/pages.db", "a", encoding="utf-8") as f:
-            f.write(json.dumps(entry) + "\n")
+        page = emitPage(module["Modulname"], blocks)
+        emitAlias(page)
 
-print("Parsed", len(modules), "modules")
+# Create entry for all modules as sub pages of Home page
+emitSubPages(home, pages)
+
+print("Parsed", len(pages), "modules")
+
+#out = generateHashFromURI("modul-reviews")
+#print(out)
+#
+#print(bytearray(out).decode("latin-1"))
+#
+#with open("./hash.txt", "w", encoding="latin-1") as f:
+#        f.write(bytearray(out).decode("latin-1"))
