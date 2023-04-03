@@ -5,6 +5,7 @@ import random
 import string
 import time
 import hashlib
+import re
 
 enc = "utf-8"
 
@@ -19,23 +20,12 @@ def generateID(n):
 
 
 def generateHashFromURI(uri):
-    print(uri)
     hash = hashlib.md5(uri.encode("latin-1"))
-
-    hexstring = hash.hexdigest()
-    #print(hexstring)
 
     bytes = hash.digest()
 
     out_bytes = []
     for i in range(0, len(bytes)):
-        # Insert 0xc2 for chars over 0x7f
-        #if bytes [i] > 0x7f:
-        #    out_bytes.append(0xc2)
-        ## Escape quotation marks with char 0x22
-        #if bytes [i] == 0x22:
-        #    out_bytes.append(0x5c)
-        #if bytes [i] <= 0x1f:
         if bytes [i] == 0x09:
             out_bytes.append(0x5c)
             out_bytes.append(0x74)
@@ -58,22 +48,25 @@ def generateHashFromURI(uri):
             else:
                 out_bytes.append(0x61 + right - 10)
         else:
-            #print(bytes[i], "to", chr(bytes [i]).encode('utf-8'))
             converted_bytes = bytearray(chr(bytes [i]).encode('utf-8'))
             out_bytes += converted_bytes
 
     return out_bytes
 
 
-def extract_section(lines, i, seperator):
+def extract_section_list(lines, i, seperator, newline_split):
     i += 1
     contents = ""
     while i < len(lines) and not lines [i].startswith(seperator):
         line = lines [i]
-        contents += line
+        contents += line + newline_split
         i += 1
 
     return contents, i
+
+
+def extract_section(lines, i, seperator):
+    return extract_section_list(lines, i, seperator, "")
 
 
 def initializeDB():
@@ -110,6 +103,77 @@ def emitParagraph(text):
     header["data"] = data
 
     return header
+
+
+def parseList(lines, i, list_delimeter):
+    items = []
+    line = lines [i]
+
+    while line.startswith(list_delimeter) and i < len(lines):
+        items.append(line[len(list_delimeter):])
+        i = i + 1
+        if i >= len(lines):
+            break
+        line = lines [i]
+
+    return items, i
+
+
+def parseNumberedList(lines, i):
+    items = []
+    line = lines [i]
+
+    last_index = None
+
+    while re.match(r'^[0-9]+\.', line) and i < len(lines):
+        m = re.search(r'^[0-9]+\.', line)
+        start, end = m.span()
+
+        index = int(line[:(end - 1)])
+        if last_index is None:
+            last_index = index
+        elif index <= last_index:
+            break
+
+        items.append(line[end:])
+        i = i + 1
+        if i >= len(lines):
+            break
+        line = lines [i]
+
+    return items, i
+
+
+def emitFormattedText(text, spliterator):
+    split = text.split(spliterator)
+
+    headers = []
+    buffer = ""
+
+    i = 0
+    while i < len(split):
+        line = split [i]
+        if (line.startswith("-") or line.startswith("●") or line.startswith("•") or line.startswith("*")):
+            if len(buffer) > 0:
+                headers.append(emitParagraph(buffer))
+                buffer = ""
+            items, i = parseList(split, i, line[0])
+            headers.append(emitList("unordered", items))
+        elif (re.match(r'^[0-9]+\.', line)):
+            if len(buffer) > 0:
+                headers.append(emitParagraph(buffer))
+                buffer = ""
+
+            items, i = parseNumberedList(split, i)
+            headers.append(emitList("ordered", items))
+        else:
+            buffer += line
+            i += 1
+
+    if len(buffer) > 0:
+        headers.append(emitParagraph(buffer))
+
+    return headers
 
 
 def emitList(style, items):
@@ -264,14 +328,14 @@ for i in range(0, len(lines)):
 
     if line.startswith("1 Kurse des Moduls"):
         kurse, i = extract_section(lines, i, "2 Lerninhalt")
-        lerninhalt, i = extract_section(lines, i, "3 Qualifikationsziele / Lernergebnisse")
-        ziele, i = extract_section(lines, i, "4 Voraussetzung für die Teilnahme")
-        voraussetzungen, i = extract_section(lines, i, "5 Prüfungsform")
+        lerninhalt, i = extract_section_list(lines, i, "3 Qualifikationsziele / Lernergebnisse", "$")
+        ziele, i = extract_section_list(lines, i, "4 Voraussetzung für die Teilnahme", "$")
+        voraussetzungen, i = extract_section_list(lines, i, "5 Prüfungsform", "$")
         exam, i = extract_section(lines, i, "6 Voraussetzung für die Vergabe von Kreditpunkten")
         pass_requirement, i = extract_section(lines, i, "7 Benotung")
         grading, i = extract_section(lines, i, "8 Verwendbarkeit des Moduls")
         verwendbarkeit, i = extract_section(lines, i, "9 Literatur")
-        literatur, i = extract_section(lines, i, "10 Kommentar")
+        literatur, i = extract_section_list(lines, i, "10 Kommentar", "$")
         kommentar, i = extract_section(lines, i, "Modulbeschreibung")
         
         kurs = {}
@@ -303,10 +367,13 @@ for i in range(0, len(lines)):
         ]))
 
         blocks.append(emitHeader("Inhalt"))
-        blocks.append(emitParagraph(kurs["Lerninhalt"]))
+        blocks.extend(emitFormattedText(kurs["Lerninhalt"], "$"))
 
         blocks.append(emitHeader("Qualifikationsziele & Lernergebnisse"))
-        blocks.append(emitParagraph(kurs["Qualifikationsziele_Lernergebnisse"]))
+        blocks.extend(emitFormattedText(kurs["Qualifikationsziele_Lernergebnisse"], "$"))
+        
+        blocks.append(emitHeader("Literatur"))
+        blocks.extend(emitFormattedText(kurs["Literatur"], "$"))
 
         page = emitPage(module["Modulname"], blocks)
         emitAlias(page)
@@ -315,11 +382,3 @@ for i in range(0, len(lines)):
 emitSubPages(home, pages)
 
 print("Parsed", len(pages), "modules")
-
-#out = generateHashFromURI("modul-reviews")
-#print(out)
-#
-#print(bytearray(out).decode("latin-1"))
-#
-#with open("./hash.txt", "w", encoding="latin-1") as f:
-#        f.write(bytearray(out).decode("latin-1"))
