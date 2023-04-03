@@ -26,12 +26,17 @@ def generateHashFromURI(uri):
 
     out_bytes = []
     for i in range(0, len(bytes)):
-        if bytes [i] == 0x09:
+        if bytes [i] == 0x22:
+            out_bytes.append(0x5c)
+            out_bytes.append(bytes [i])
+        elif bytes [i] == 0x09:
             out_bytes.append(0x5c)
             out_bytes.append(0x74)
         elif bytes [i] == 0x0c:
             out_bytes.append(0x5c)
             out_bytes.append(0x66)
+        elif bytes [i] >= 0xc0 and bytes [i] <= 0xc5:
+            out_bytes.append(bytes [i])
         elif bytes [i] <= 0x20 or (bytes [i] >= 0x80 and bytes [i] <= 0xa0):
             out_bytes.append(0x5c)
             out_bytes.append(0x75)
@@ -153,7 +158,7 @@ def emitFormattedText(text, spliterator):
     i = 0
     while i < len(split):
         line = split [i]
-        if (line.startswith("-") or line.startswith("●") or line.startswith("•") or line.startswith("*")):
+        if (line.startswith("-") or line.startswith("●") or line.startswith("•") or line.startswith("*") or line.startswith("○")):
             if len(buffer) > 0:
                 headers.append(emitParagraph(buffer))
                 buffer = ""
@@ -194,7 +199,7 @@ def emitPage(title, blocks):
 
     with open("./data/db/pages.db", "a", encoding=enc) as f:
         id = generateID(16)
-        uri = title.lower().replace(" ", "-").replace("—", "-").replace("–", "-")
+        uri = title.lower().replace(" ", "-").replace("—", "-").replace("–", "-").replace(":", "").replace(";", "").replace("ä", "-").replace("ö", "-").replace("ü", "-").replace(",", "")
 
         body = {}
         body["time"] = int(time.time())
@@ -243,6 +248,10 @@ def emitAlias(page):
         f.write(split [1] + "\n")
 
 
+def formatURL(url, text):
+    return "<a href=\"" + url + "\">" + text + "</a>"
+
+
 pdf = pdfium.PdfDocument("./MHB_BSC_MSC_Informatik.pdf")
 
 n_pages = len(pdf)  # get the number of pages in the document
@@ -275,7 +284,12 @@ page = None
 initializeDB()
 
 # Generate Home Page
-home = emitPage("Modul Reviews", [emitHeader("Modul Reviews")])
+blocks = []
+blocks.append(emitHeader("Module"))
+blocks.append(emitParagraph("Dieses Projekt bezieht seine Informationen aus dem Modulhandbuch B.Sc./M.Sc. Informatik. Das Skript mit dem die Informationen extrahiert wurden kann hier gefunden werden: " + formatURL("https://github.com/PhilipJonasFranz/tuda-modulhandbuch-parser", "tuda-modulhandbuch-parser")))
+blocks.append(emitParagraph("Es wird keine Garantie übernommen das die gezeigten Informationen korrekt sind."))
+home = emitPage("Module", blocks)
+emitAlias(home)
 
 # Emit Home Page at Root
 emitSubPages(None, [home])
