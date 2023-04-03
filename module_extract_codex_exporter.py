@@ -269,7 +269,14 @@ for i in range(0, n_pages):
 
     # Extract text from the whole page
     text_all = textpage.get_text_range()
-    lines += text_all.splitlines()
+    split = text_all.splitlines()
+
+    # Remove strings of the form 'Modulhandbuch B. Sc./M. Sc. Informatik 8', since they are mixed randomly into the strings
+    for a in range(0, len(split)):
+        line = re.sub(r"Modulhandbuch B\. Sc\.\/M\. Sc\. Informatik [0-9]+", '', split[a])
+        if len(line) > 0:
+            lines.append(line)
+
 
 print("Extracted", len(lines), "lines of text")
 
