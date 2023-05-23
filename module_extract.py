@@ -112,7 +112,7 @@ for i in range(0, len(lines)):
         kurs["Qualifikationsziele_Lernergebnisse"] = ziele
         kurs["Voraussetzung_fuer_die_Teilnahme"] = voraussetzungen
         kurs["Pruefungsform"] = exam
-        kurs["Voraussetzung_fuer_die_Vergabe_von_Kreditpunkten"] = voraussetzungen
+        kurs["Voraussetzung_fuer_die_Vergabe_von_Kreditpunkten"] = pass_requirement
         kurs["Benotung"] = grading
         kurs["Verwendbarkeit_des_Moduls"] = verwendbarkeit
         kurs["Literatur"] = literatur
