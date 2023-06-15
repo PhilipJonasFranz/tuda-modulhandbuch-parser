@@ -22,7 +22,7 @@ def compareModules():
     with open("./tutorme/modules_old.json", "r", encoding=enc) as f:
         old_modules = json.loads(f.read())
 
-    with open("./tutorme/modules.json", "r", encoding=enc) as f:
+    with open("./tutorme/modules_" + str(input_handbook) + ".json", "r", encoding=enc) as f:
         modules = json.loads(f.read())
 
     num_found = 0
@@ -132,11 +132,11 @@ def extract_section(lines, i, seperator):
 
 
 def initializeDB():
-    with open("./tutorme/modules_" + input_handbook + ".json", "w+", encoding=enc) as f:
+    with open("./tutorme/modules_" + str(input_handbook) + ".json", "w+", encoding=enc) as f:
         f.write("[")
 
 def finalizeDB():
-    with open("./tutorme/modules_" + input_handbook + ".json", "a", encoding=enc) as f:
+    with open("./tutorme/modules_" + str(input_handbook) + ".json", "a", encoding=enc) as f:
         f.write("]")
 
 
@@ -216,6 +216,33 @@ def emitFormattedText(text, spliterator):
     if len(buffer) > 0:
         headers.append(emitParagraph(buffer))
 
+    # Searches for cases where a line-warp resulted in a new paragraph and split a list in two
+    if len(headers) > 2:
+        for i in range(1, len(headers)):
+            if (i < len(headers) - 1):
+                if headers[i - 1]["type"] == "list" and headers[i]["type"] == "paragraph" and headers[i + 1]["type"] == "list":
+                    elements = headers[i - 1]["data"]
+                    if (str(elements[len(elements) - 1]).endswith(" ")):
+                        print("'" + str(elements[len(elements) - 1]) + "', '" + headers[i]["data"] + "'")
+                        elements[len(elements) - 1] += headers[i]["data"]
+                        headers.pop(i)
+                        i -= 1
+
+    # Merges back-to-back lists created by the previous step
+    if len(headers) > 1:
+        for i in range(1, len(headers)):
+            if (i < len(headers) - 1):
+                if headers[i - 1]["type"] == "list" and headers[i]["type"] == "list":
+                    headers[i - 1]["data"] += headers[i]["data"]
+                    headers.pop(i)
+                    i -= 1
+
+    # Deletes empty lists.
+    for i in range(0, len(headers)):
+        if headers[i - 1]["type"] == "list" and len(headers[i]["data"]) == 0:
+            headers.pop(i)
+            i -= 1
+
     return headers
 
 
@@ -237,7 +264,7 @@ def emitList(items):
 def emitPage(module, blocks):
     page = None
 
-    with open("./tutorme/modules_" + input_handbook + ".json", "a", encoding=enc) as f:
+    with open("./tutorme/modules_" + str(input_handbook) + ".json", "a", encoding=enc) as f:
         id = generateID(16)
         uri = module["Modulname"].lower().replace(" ", "-").replace("—", "-").replace("–", "-").replace(":", "").replace(";", "").replace("ä", "-").replace("ö", "-").replace("ü", "-").replace(",", "")
 
@@ -345,7 +372,10 @@ def extract_useable_in_degrees(verwendbarkeit: str):
                 extract.append(keys[i]["values"][a])
             verwendbarkeit = verwendbarkeit.replace(keys[i]["key"], "")
 
-    blocks = [ emitList(extract) ]
+    blocks = []
+
+    if (len(extract) > 0):
+        blocks += [ emitList(extract) ]
 
     other = [
         {"key": "Kann in anderen Studiengängen verwendet werden.", "values": ["Kann in anderen Studiengängen verwendet werden."]},
@@ -379,7 +409,7 @@ def extract_useable_in_degrees(verwendbarkeit: str):
     return blocks
 
 
-pdf = pdfium.PdfDocument("./MHB_BSC_MSC_Informatik_" + input_handbook + ".pdf")
+pdf = pdfium.PdfDocument("./MHB_BSC_MSC_Informatik_" + str(input_handbook) + ".pdf")
 
 n_pages = len(pdf)  # get the number of pages in the document
 print("Read", n_pages, "pages from file")
@@ -434,10 +464,13 @@ for i in range(0, len(lines)):
     if line.startswith("Modul Nr."):
         module["Modul Nr."] = lines [i + 1]
         i += 1
-        if lines[i + 1] != "Leistungspun":
+        if lines[i + 1] != "Leistungspun" and lines[i + 1] != "Kreditpunkte":
             module["Modul Nr."] = module["Modul Nr."] + lines[i + 1]
-            i + 1
+            i += 1
 
+    if line.startswith("Kreditpunkte"):
+        module["Kreditpunkte"] = lines [i + 1]
+        i += 1
     if line.startswith("Leistungspun"):
         module["Kreditpunkte"] = lines [i + 2]
         i += 2
@@ -471,7 +504,13 @@ for i in range(0, len(lines)):
         lerninhalt, i = extract_section_list(lines, i, "3 Qualifikationsziele / Lernergebnisse", "$")
         ziele, i = extract_section_list(lines, i, "4 Voraussetzung für die Teilnahme", "$")
         voraussetzungen, i = extract_section_list(lines, i, "5 Prüfungsform", "$")
-        exam, i = extract_section(lines, i, "6 Voraussetzung für die Vergabe von Leistungspunkten")
+        
+        exam = None
+        if (input_handbook == 2021):
+            exam, i = extract_section(lines, i, "6 Voraussetzung für die Vergabe von Kreditpunkten")
+        else:
+            exam, i = extract_section(lines, i, "6 Voraussetzung für die Vergabe von Leistungspunkten")
+
         pass_requirement, i = extract_section(lines, i, "7 Benotung")
         grading, i = extract_section(lines, i, "8 Verwendbarkeit des Moduls")
         verwendbarkeit, i = extract_section(lines, i, "9 Literatur")
@@ -517,9 +556,9 @@ for i in range(0, len(lines)):
 
 finalizeDB()
 
-replaceUnicodeSequences("./tutorme/modules_" + input_handbook + ".json")
+replaceUnicodeSequences("./tutorme/modules_" + str(input_handbook) + ".json")
 
 print("Parsed", len(pages), "modules")
 
-compareModules()
-replaceUnicodeSequences("./tutorme/modules_new.json")
+#compareModules()
+#replaceUnicodeSequences("./tutorme/modules_new.json")
