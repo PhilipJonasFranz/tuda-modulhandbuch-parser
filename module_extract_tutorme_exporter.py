@@ -8,15 +8,53 @@ import hashlib
 import re
 import os
 
+input_handbook = 2021
+compare_handbook = 2022
+
 enc = "utf-8"
 
 IDs = []
 
-def replaceUnicodeSequences():
+def compareModules():
+    old_modules = None
+    modules = None
+    
+    with open("./tutorme/modules_old.json", "r", encoding=enc) as f:
+        old_modules = json.loads(f.read())
+
+    with open("./tutorme/modules.json", "r", encoding=enc) as f:
+        modules = json.loads(f.read())
+
+    num_found = 0
+    num_new = 0
+    new_modules = []
+    for i in range(0, len(modules)):
+        module = modules[i]
+        found = False
+        for a in range(0, len(old_modules)):
+            if old_modules[a]["course"]["id"] == module["course"]["id"]:
+                found = True
+                num_found += 1
+                break
+
+        if not found:
+            print("Found new Module: " + module["title"] + " id=" + module["_id"])
+            new_modules.append(module)
+            num_new += 1
+
+    print("Found " + str(num_found) + " existing modules")
+    print("Found " + str(num_new) + " new modules")
+
+    with open("./tutorme/modules_new.json", "w", encoding=enc) as f:
+        f.write(json.dumps(new_modules))
+
+
+
+def replaceUnicodeSequences(path):
     print("Replacing unicode chars")
     
     lines = []
-    with open("./tutorme/modules.json", "r", encoding=enc) as f:
+    with open(path, "r", encoding=enc) as f:
         lines = f.readlines()
 
     special_char_map = [
@@ -24,6 +62,7 @@ def replaceUnicodeSequences():
         ["\\u00dc", "Ü"],
         ["\\u00e4", "ä"],
         ["\\u00c4", "Ä"],
+        ["o\\u0308", "ö"],
         ["\\u00f6", "ö"],
         ["\\u00d6", "Ö"],
         ["\\u00df", "ß"],
@@ -35,12 +74,15 @@ def replaceUnicodeSequences():
         ["\\u201c", "'"],
         ["\\u201d", "'"],
         ["\\u201e", "'"],
+        ["\\u201a", "'"],
         ["\\u2019", "'"],
         ["\\u2018", "'"],
         ["\\u2010", "-"],
         ["\\u2013", "-"],
         [" \\u2014 ", " - "],
         ["\\u2014", " - "],
+        ["\\u25cf", " -"],
+        ["\\u2022", ""],
         ["\\u25a0 ", ", "],
         ["\\u2026", "..."],
         ["\\u02dc", "~"],
@@ -59,7 +101,7 @@ def replaceUnicodeSequences():
 
         lines[i] = line
 
-    with open("./tutorme/modules.json", "w", encoding=enc) as f:
+    with open(path, "w", encoding=enc) as f:
         f.writelines(lines)
 
 def generateID(n):
@@ -90,11 +132,11 @@ def extract_section(lines, i, seperator):
 
 
 def initializeDB():
-    with open("./tutorme/modules.json", "w+", encoding=enc) as f:
+    with open("./tutorme/modules_" + input_handbook + ".json", "w+", encoding=enc) as f:
         f.write("[")
 
 def finalizeDB():
-    with open("./tutorme/modules.json", "a", encoding=enc) as f:
+    with open("./tutorme/modules_" + input_handbook + ".json", "a", encoding=enc) as f:
         f.write("]")
 
 
@@ -154,7 +196,7 @@ def emitFormattedText(text, spliterator):
     i = 0
     while i < len(split):
         line = split [i]
-        if (line.startswith("-") or line.startswith("●") or line.startswith("•") or line.startswith("*") or line.startswith("○")):
+        if (line.startswith("-") or line.startswith("●") or line.startswith("•") or line.startswith("*") or line.startswith("○") or line.startswith("\\u25cf")):
             if len(buffer) > 0:
                 headers.append(emitParagraph(buffer))
                 buffer = ""
@@ -195,7 +237,7 @@ def emitList(items):
 def emitPage(module, blocks):
     page = None
 
-    with open("./tutorme/modules.json", "a", encoding=enc) as f:
+    with open("./tutorme/modules_" + input_handbook + ".json", "a", encoding=enc) as f:
         id = generateID(16)
         uri = module["Modulname"].lower().replace(" ", "-").replace("—", "-").replace("–", "-").replace(":", "").replace(";", "").replace("ä", "-").replace("ö", "-").replace("ü", "-").replace(",", "")
 
@@ -234,20 +276,25 @@ def extract_useable_in_degrees(verwendbarkeit: str):
         {"key": "M. Sc. Informatik", "values": ["M.Sc. Informatik"]},
         {"key": "M.Sc. Informatik", "values": ["M.Sc. Informatik"]},
         {"key": "M.Sc Informatik", "values": ["M.Sc. Informatik"]},
+        {"key": "M. Sc. Informatik", "values": ["M.Sc. Informatik"]},
         
         # Informatik Master Studiengänge
         {"key": "M. Sc. IT Sicherheit", "values": ["M.Sc. IT Sicherheit"]},
+        {"key": "M.Sc. IT Sicherheit", "values": ["M.Sc. IT Sicherheit"]},
+        {"key": "M. Sc. Autonome Systeme und Robotik", "values": ["M.Sc. Autonome Systeme"]},
         {"key": "M. Sc. Autonome Systeme", "values": ["M.Sc. Autonome Systeme"]},
         {"key": "M. Sc. Distributed Software Systems", "values": ["M.Sc Verteilte Systeme"]},
         {"key": "M. Sc. Internet- und Web-basierte Systeme", "values": ["M.Sc. Internet- und Web-basierte Systeme"]},
         {"key": "M. Sc. Computational Engineering", "values": ["M.Sc. Computational Engineering"]},
         {"key": "M. Sc. Visual Computing", "values": ["M.Sc. Visual Computing"]},
+        {"key": "M. Sc. Artificial Intelligence and Machine Learning", "values": ["M.Sc. Künstliche Intelligenz und Machine Learning"]},
         
         {"key": "B. Sc. Informationssystemtechnik", "values": ["B.Sc. Informationssystemtechnik"]},
         {"key": "BSc iST", "values": ["B.Sc. Informationssystemtechnik"]},
         {"key": "BSc/MSc iST", "values": ["B.Sc. Informationssystemtechnik", "M.Sc. Informationssystemtechnik"]},
         {"key": "MSc iST", "values": ["M.Sc. Informationssystemtechnik"]},
         {"key": "M. Sc. Informationssystemtechnik", "values": ["M.Sc. Informationssystemtechnik"]},
+        {"key": "B. Sc. Informationstechnik", "values": ["B.Sc. Informationstechnik"]},
 
         {"key": "B. Sc. Wirtschaftsinformatik", "values": ["B.Sc. Wirtschaftsinformatik"]},
         {"key": "B.Sc./M.Sc. Wirtschaftsinformatik", "values": ["B.Sc. Wirtschaftsinformatik", "M.Sc. Wirtschaftsinformatik"]},
@@ -257,11 +304,14 @@ def extract_useable_in_degrees(verwendbarkeit: str):
         {"key": "BSc CS", "values": ["B.Sc. Computer Science"]},
         {"key": "BSc/MSc CS", "values": ["B.Sc. Computer Science", "M.Sc. Computer Science"]},
         {"key": "MSc CS", "values": ["M.Sc. Computer Science"]},
+        {"key": "M. Sc. Computer Science", "values": ["M.Sc. Computer Science"]},
 
         {"key": "B. Sc. Computational Engineering", "values": ["B.Sc. Computational Engineering"]},
         
         {"key": "MSc iCE", "values": ["M.Sc. Information and Communication Engineering"]},
         
+        {"key": "B. Sc. Physik", "values": ["B.Sc. Physik"]},
+        {"key": "B. Sc. Mathematik", "values": ["B.Sc. Mathematik"]},
         {"key": "BSc ETiT", "values": ["B.Sc. Elektrotechnik und Informationstechnik"]},
         {"key": "MSc ETiT", "values": ["M.Sc. Elektrotechnik und Informationstechnik"]},
         
@@ -329,7 +379,7 @@ def extract_useable_in_degrees(verwendbarkeit: str):
     return blocks
 
 
-pdf = pdfium.PdfDocument("./MHB_BSC_MSC_Informatik.pdf")
+pdf = pdfium.PdfDocument("./MHB_BSC_MSC_Informatik_" + input_handbook + ".pdf")
 
 n_pages = len(pdf)  # get the number of pages in the document
 print("Read", n_pages, "pages from file")
@@ -384,10 +434,13 @@ for i in range(0, len(lines)):
     if line.startswith("Modul Nr."):
         module["Modul Nr."] = lines [i + 1]
         i += 1
+        if lines[i + 1] != "Leistungspun":
+            module["Modul Nr."] = module["Modul Nr."] + lines[i + 1]
+            i + 1
 
-    if line.startswith("Kreditpunkte"):
-        module["Kreditpunkte"] = lines [i + 1]
-        i += 1
+    if line.startswith("Leistungspun"):
+        module["Kreditpunkte"] = lines [i + 2]
+        i += 2
 
     if line.startswith("Arbeitsaufwand"):
         module["Arbeitsaufwand"] = lines [i + 1]
@@ -418,7 +471,7 @@ for i in range(0, len(lines)):
         lerninhalt, i = extract_section_list(lines, i, "3 Qualifikationsziele / Lernergebnisse", "$")
         ziele, i = extract_section_list(lines, i, "4 Voraussetzung für die Teilnahme", "$")
         voraussetzungen, i = extract_section_list(lines, i, "5 Prüfungsform", "$")
-        exam, i = extract_section(lines, i, "6 Voraussetzung für die Vergabe von Kreditpunkten")
+        exam, i = extract_section(lines, i, "6 Voraussetzung für die Vergabe von Leistungspunkten")
         pass_requirement, i = extract_section(lines, i, "7 Benotung")
         grading, i = extract_section(lines, i, "8 Verwendbarkeit des Moduls")
         verwendbarkeit, i = extract_section(lines, i, "9 Literatur")
@@ -464,6 +517,9 @@ for i in range(0, len(lines)):
 
 finalizeDB()
 
-replaceUnicodeSequences()
+replaceUnicodeSequences("./tutorme/modules_" + input_handbook + ".json")
 
 print("Parsed", len(pages), "modules")
+
+compareModules()
+replaceUnicodeSequences("./tutorme/modules_new.json")

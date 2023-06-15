@@ -1,0 +1,3911 @@
+[
+    {
+        "_id": "koekcioohjhagfhd",
+        "title": "Erfolgreich ins Informatik-Studium starten (eiiss)",
+        "uri": "erfolgreich-ins-informatik-studium-starten-(eiiss)",
+        "course": {
+            "cp": 1,
+            "sws": 30,
+            "self_study": 20,
+            "id": "20-00-1141",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "In wöchentlichen Gesprächen zwischen einem erfahrenen Studierenden aus höherem Semester (Mentor*in) und einem Studierenden im ersten Semester (Mentee) werden folgende Inhalte thematisiert:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Selbstorganisation zu Studienbeginn",
+                        " Orientierung in Bezug auf die Anforderungen des B. Sc. Informatik",
+                        " Nutzung von Lerngruppen",
+                        " Lernen an der Universität und Reflexion des Lernstandes",
+                        " Teamarbeit im Studium",
+                        " Umgang mit Prüfungen und Prüfungsvorbereitung",
+                        " Organisation und Strukturierung der Prüfungsphase"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Im zweiten Semester werden die Inhalte der Gespräche aus dem ersten Semester bedarfsorientiert durch weitere Gespräche und Workshops vertieft."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Veranstaltung zielt darauf ab, dass die Studierenden ihr Studium selbstorganisiert strukturieren und planen, sodass sie zielorientiert studieren. Die Studierenden sind am Ende des Moduls in der Lage die Grundstruktur des Studiums zu erkennen sowie die Anforderungen der Studienfächer abzuschätzen und dementsprechend ihr Studium zu optimieren. Weiterhin sind sie in der Lage verschiedene Vorgehensweisen beim Lernen an der Universität zu reflektieren und auf ihr eigenes Lernverhalten zu übertragen."
+                }
+            ],
+            "requirements": [],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-0000-tt] (Studienleistung, Sonderform, Bestanden/Nicht bestanden)Modulhandbuch B. Sc. Informatik 6Zum Bestehen ist die Teilnahme an wöchentlichen Gesprächen mit studentischen Mentor*innen und die Abgabe von wöchentlichen Fragebögen zur Studiensituation während der Vorlesungszeit erforderlich. Fehlende Teilnahmen an den Gesprächen und/oder Abgaben der Fragebögen können durch das Anfertigen einer schriftlichen Ersatzleistung zu den Inhalten der Lehrveranstaltung ausgeglichen werden."
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-0000-tt] (Studienleistung, Sonderform, Gewichtung: 100%, Bestanden/Nicht bestanden)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Materialien zur Veranstaltung werden über den entsprechenden Moodle-Kurs bereitgestellt."
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 7"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "nntdliehqgnbljku",
+        "title": "Mathematik I für Informatik",
+        "uri": "mathematik-i-f-r-informatik",
+        "course": {
+            "cp": 9,
+            "sws": 270,
+            "self_study": 180,
+            "id": "04-10-0118/de",
+            "organizer": "Prof. Dr. phil. nat. Ulrich Kohlenbach",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung, Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": " Mengen, Relationen, Funktionen, algebraische Grundstrukturen modulare Arithmetik, RSA Verfahren für Verschlüsselung von Daten endlichdimensionale Vektorräume, lineare Abbildungen und Matrizen, Gauß-Algorithmus, Determinanten, Eigenwerte Grundlagen: reelle und komplexe Zahlen Folgen und Konvergenz"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": " Beherrschung der mengentheoretischen Sprechweise Vertrautheit mit grundlegenden algebraischen Strukturen und Grundbegriffen Verständnis der grundlegenden Begriffe der linearen Algebra Beherrschung der grundlegenden Algorithmen der linearen Algebra Verständnis des Begriffs der reellen Zahlen und Beherrschung des Umgangs mit Grenzwertprozessen."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "keine"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 13Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Bestanden/Nicht bestanden)Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Minuten), bei geringer Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird anhand der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen festgelegt.Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben."
+                }
+            ],
+            "pass_requirement": [],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 0%, Bestanden/Nicht bestanden)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": []
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": " Finckenstein, Lehn, Schellhaas, Wegmann: Arbeitsbuch Mathematik für Ingenieure I/II, Teubner Meyberg/Vachenauer: Höhere Mathematik I/II, Springer-Verlag Vorlesungsskript"
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 14"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "bpwjwvrdlsveftfb",
+        "title": "Automaten, formale Sprachen und Entscheidbarkeit",
+        "uri": "automaten-formale-sprachen-und-entscheidbarkeit",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "04-10-0120/de",
+            "organizer": "Prof. Dr. rer. nat. Martin Otto",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung, Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Einführung: Transitionssysteme, Wörter, Sprachen; Mathematische Grundbegriffe und elementare Beweismethoden; Endliche Automaten und reguläre Sprachen; Determinismus und Nichtdeterminismus, Abschlusseigenschaften und Automatenkonstruktionen; Sätze von Kleene, Myhill-Nerode, Pumping Lemma;Grammatiken und Chomsky-Hierarchie,kontextfreie Sprachen, Abschlusseigenschaften, Pumping Lemma, CYK Algorithmus; Berechnungsmodelle: Kellerautomaten, Turingmaschinen; Entscheidbarkeit und Aufzählbarkeit in der Chomsky-Hierarchie"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Studierenden lernen elementare Techniken und Methoden der diskreten Mathematik im Umfeld von formalen Sprachen und Automaten kennen und anzuwenden; sie lernen, endliche Automaten als Beispiel eines fundamentalen Berechnungsmodells operational und semantisch zu interpretieren und zu analysieren. Sie verfügen über die notwendigen Grundkenntnisse, Grammatiken und formale Sprachen im Rahmen der Chomsky-Hierarchie und zugehöriger Berechnungsmodelle einzuordnen und zu analysieren."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "keine"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Bestanden/Nicht bestanden)Modulhandbuch B. Sc. Informatik 15Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Min), bei geringer Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird anhand der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen festgelegt.Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben."
+                }
+            ],
+            "pass_requirement": [],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 0%, Bestanden/Nicht bestanden)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "paragraph",
+                    "data": "B.Sc. Informatik"
+                },
+                {
+                    "type": "paragraph",
+                    "data": "M.Sc. Informatik"
+                },
+                {
+                    "type": "list",
+                    "data": []
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Schöning: Theoretische Informatik -- kurz gefasst \\newlineHopcroft, Motwani, Ullman: Einführung in die Automatentheorie, formale Sprachen und Komplexitätstheorie\\newlineWegener: Theoretische Informatik -- eine algorithmenorientierte Einführung \\newlineSkript (elektronisch unter www.mathematik.tu-darmstadt.de&#47;~otto)"
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "durchgeführt als Teil einer (4+2) VeranstaltungModulhandbuch B. Sc. Informatik 16"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "benyumnyskiszxkp",
+        "title": "Mathematik II für Informatik",
+        "uri": "mathematik-ii-f-r-informatik",
+        "course": {
+            "cp": 9,
+            "sws": 270,
+            "self_study": 180,
+            "id": "04-10-0119/de",
+            "organizer": "Prof. Dr. phil. nat. Ulrich Kohlenbach",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung, Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": " Reihen und Potenzreihen elementare Funktionen reelle Funktionen und Stetigkeit Differentialrechnung, Extrema, Umkehrfunktion Exponentialfunktion und Logarithmus Integralrechnung: Integrale, Hauptsatz, Integrationsmethoden reelle Funktionen in mehreren Variablen Taylorreihen, Fourierreihen gewöhnliche Differentialgleichungen, elementare Lösungsmethoden und Beispiele, lineare Differentialgleichungen"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": " Beherrschung der wichtigsten Konvergenzkriterien für Reihen und ihrer Anwendung Sicherheit im Umgang mit elementaren Funktionen wie Exponentialfunktion, Winkelfunktionen und Logarithmus Verständnis topologischer Grundbegriffe und ihrer VerwendungModulhandbuch B. Sc. Informatik 21 Verständnis des Begriffs der Differenzierbarkeit und Beherrschung der Differentiationsregeln Verständnis des Riemann-Integrals und Beherrschung einfacher Integrationstechniken Verständnis der Differentiation von Funktionen mehrerer reeller Variablen Fähigkeit, Extremwertsaufgaben für Funktionen in mehreren Variablen zu lösen Vertrautheit mit einfachen gewöhnlichen Differentialgleichungen und Lösungsmethoden dafür"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Mathematik I"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Bestanden/Nicht bestanden)Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Min), bei geringer Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird anhand der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen festgelegt.Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben."
+                }
+            ],
+            "pass_requirement": [],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 0%, Bestanden/Nicht bestanden)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": []
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 22 Finckenstein, Lehn, Schellhaas, Wegmann: Arbeitsbuch Mathematik für Ingenieure I/II, Teubner Meyberg/Vachenauer: Höhere Mathematik I/II, Springer-Verlag Vorlesungsskript"
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 23"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "fntysctrmkqmrzkf",
+        "title": "Aussagenlogik und Prädikatenlogik",
+        "uri": "aussagenlogik-und-pr-dikatenlogik",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "04-10-0121/de",
+            "organizer": "Prof. Dr. rer. nat. Martin Otto",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung, Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Syntax und Semantik der Aussagenlogik, funktionale Vollständigkeit und Normalformen, Kompaktheitssatz der Aussagenlogik, vollständige Beweiskalküle: Resolution und ein Sequenzenkalkül; \\newlineSyntax und Semantik der Logik erster Stufe, Strukturen und Belegungen, Normalformen und Skolemisierung, der Satz von Herbrand und der Kompaktheitsstaz der Logik erster Stufe, vollständige Beweiskalküle: (Grundinstanzen-)Resolution und ein Sequenzenkalkül,Gödelscher Vollständigkeitssatz, Unentscheidbarkeit der Logik erster Stufe;\\newlineoptional: Exkurse zu Ausdrucksstärke und model checking"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Studierenden werden mit Inhalten und Methoden der mathematischen Logik und ihrer Rolle in der Informatik vertraut gemacht. Sie lernen die grundlegenden Begriffe und Resultate der Logik, insbesondere der Logik erster Stufe, kennen und anzuwenden. Sie beherrschen die grundsätzlichen mathematischen Methoden in der Behandlung von Syntax, Semantik und formalen Beweisen, sowie die Diskussion einfacher modelltheoretischer und algorithmischer Aspekte der behandelten logischen Systeme"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Automaten, formale Sprachen und Entscheidbarkeit"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Bestanden/Nicht bestanden)Modulhandbuch B. Sc. Informatik 24Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Min), bei geringer Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird anhand der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen festgelegt.Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben."
+                }
+            ],
+            "pass_requirement": [],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulabschlussprüfung: Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard) Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 0%, Bestanden/Nicht bestanden)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "paragraph",
+                    "data": "B.Sc. Informatik"
+                },
+                {
+                    "type": "paragraph",
+                    "data": "M.Sc. Informatik"
+                },
+                {
+                    "type": "list",
+                    "data": []
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Burris: Logic for Mathematics and Computer Science\\newlineSchöning: Logik für Informatiker\\newlineBoolos, Burgess, Jeffrey: Computability and Logic\\newlineSkript (2 Teile, elektronisch unter www.mathematik.tu-darmstadt.de&#47;~otto)"
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "durchgeführt als Teil einer (4+2) VeranstaltungModulhandbuch B. Sc. Informatik 25"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "esnkcesoathjrznw",
+        "title": "Probabilistische Methoden der Informatik",
+        "uri": "probabilistische-methoden-der-informatik",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1150",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Grundlagen aus der Wahrscheinlichkeitstheorie, Statistik und Informationstheorie",
+                        " Probabilistische Ansätze zur graphenbasierten Modellierung in der Informatik",
+                        " Grundlegende probabilistische Fragestellungen und Einsatz probabilistischer Methoden "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "o in praktischer Informatik (z.B. Laufzeitanalyse von Programmen, Datenkompression), o in technischer Informatik (z.B. Zuverlässigkeit von Hardware, Caching), undo in der angewandten Informatik (z.B. Simulation von stochastischen Systemen, probabilitische Robotik)"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Ausgewählte randomisierte Algorithmen, deren Analyse durch 'The Probabilistic Method', "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Algorithmen zur automatisierten Entscheidungsfindung und Optimierung "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Anwendung probabilistischer Methoden in künstlicher Intelligenz (z.B. Lernverfahren, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "neuronale Netze) und Data Science"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Implementierung probabilistischer Methoden anhand von praktischen "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Programmierbeispielen"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Studierende kennen nach erfolgreichem Besuch der Veranstaltung die grundlegenden probabilistischen Fragestellungen in den Kerngebieten der Informatik. Sie können probabilistische Methoden selbständig in Informatikproblemen zur Analyse und Synthese von Algorithmen, Software, Hardware, Informatik-Anwendungen, Data Science und in der künstlichen Intelligenz selbständig anwenden und in einer geeigneten Programmiersprache implementieren. "
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Mathematik I für Informatiker und Mathematik II für Informatiker oder vergleichbare VeranstaltungenModulhandbuch B. Sc. Informatik 32"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1150-iv] (Fachprüfung, Klausur, Standard)Klausur (Dauer 90 min.)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": " [20-00-1150-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "M. Mitzenbacher, E. Upfahl: Probability and Computing, Cambridge University PressS.H. Chan: Probability for Data Science, Michigan University PressK. P. Murphy: Probabilistic Machine Learning, MIT PressD.J.C. MacKay: Information Theory, Inference, and Learning Algorithms, Cambridge University Press"
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 33"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "rwjwiwsizglvfchy",
+        "title": "Computernetze und verteilte Systeme",
+        "uri": "computernetze-und-verteilte-systeme",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1151",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Einführung in vernetzte und verteilte Systeme als grundlegender Baustein der modernen Informatik. Der Kurs behandelt grundlegende Konzepte des Entwurfs, der Modellierung, Planung und Bewertung vernetzter und verteilter Systeme. "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Grundlagen: Dienste, Protokolle, Verbindungen, Schichtenmodell",
+                        " Aufgaben von Sicherungsschicht, Vermittlungsschicht, Transportschicht, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Anwendungsschicht"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Basismechanismen (Algorithmen, Protokolle) für Multiplexing, Broadcast, Multicast, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Routing und Paketweiterleitung"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Dienstgüte und Zuverlässigkeit: Definition und Mechanismen",
+                        " Koordination in verteilten Systemen: von Primitiven zu Anwendungen",
+                        " Ausgewählte Internetprotokolle und -technologien "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Die Lehrveranstaltung führt die Studierenden in vernetzte und verteilte Systeme ein. Sie behandelt insbesondere Themen der \"klassischen Vernetzung\", die aus der Kommunikation über paketvermittelte Netze, dem OSI-Modell und der Kopplung mit entfernten Knoten besteht, als auch solche aus \"modernen Bereichen\", wie verteilte Datenverwaltung und verteiltes Computing. Ziel dieser Vorlesung ist es, die wichtigsten Grundlagen von vernetzen und verteilten Systemen einzuführen, um die Studierenden auf weiterführende Kurse vorzubereiten, in denen ausgewählte Aspekte von Computernetzwerken bzw. verteilten Systemen vertieft werden."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach Abschluss der Veranstaltung verfügen Studierende über"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " ein Überblickswissen über relevante Bereiche und grundlegende Probleme vernetzter "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Softwaresysteme, "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " ein tiefgehendes Verständnis ausgewählter, elementarer Algorithmen, Protokolle und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Verfahren, die im Internet eingesetzt werden sowie "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " anwendbares Methodenwissen zu weit verbreiteten Elementen der Modellierung und des "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 39Engineerings von vernetzten Softwaresystemen."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Der vorherige oder parallele Besuch von 'Funktionale und objektorientierte Programmierkonzepte', 'Algorithmen und Datenstrukturen', 'Rechnerorganisation' und 'Parallele Programmierung' oder vergleichbarer Veranstaltungen"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1151-iv] (Fachprüfung, Klausur, Standard)Klausur (Dauer 90 min.)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": " [20-00-1151-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard)In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann."
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "paragraph",
+                    "data": "B.Sc. Informatik"
+                },
+                {
+                    "type": "paragraph",
+                    "data": "M.Sc. Informatik"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Hauptliteratur"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " J. Kurose, K. Ross: Computer Networks, Pearson Education 2021 (also in german) ",
+                        " M. van Steen, A. Tanenbaum: Distributed Systems, distributed-systems.net, 2017."
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Ausgewählte Kapitel aus:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " G. Coulouris, J. Dollimore, T. Kindberg: Distributed Systems - Concept and Design, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Pearson Studium"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " A. Tanenbaum, D. Wetherall: Computer Networks, Pearson Education 2012 (also in "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "german)"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " W.R. Stevens: Unix Network Programming, Volume 1: The Sockets Networking API "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "(Addison Wesley)Ausgewählte Konferenzbeiträge und Zeitschriftenartikel"
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 40"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "xqpjntqfkfovyrad",
+        "title": "Parallele Programmierung",
+        "uri": "parallele-programmierung",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1152",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Grundlagen paralleler Systeme",
+                        " parallele Architekturen",
+                        " Programmiermodelle für paralleles Rechnen",
+                        " parallele Algorithmen",
+                        " Vertiefung der gelernten Inhalte in Praktika mit signifikantem Umfang",
+                        " falls notwendig Einführung in Basisprogrammiersprachen"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach dem erfolgreichen Besuch der Veranstaltung verstehen Studierende die Grundlagen paralleler Systeme und ihrer sowohl korrekten als auch effizienten Programmierung. Sie können einfache Anwendungen mittels paralleler Programmierung auf ausgewählten Plattformen entwickeln und analysieren."
+                }
+            ],
+            "requirements": [],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1152-iv] (Studienleistung, Sonderform, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Softwareentwicklung (optional: einschließlich der Abgabe von Quellcode und Testaten), Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten), Kolloquium (optional: einschließlich Präsentation), PortfolioModulhandbuch B. Sc. Informatik 41"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": " [20-00-1152-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "paragraph",
+                    "data": "B.Sc. Informatik"
+                },
+                {
+                    "type": "paragraph",
+                    "data": "M.Sc. Informatik"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Wird in der Veranstaltung bekanntgegeben."
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 42"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "glgopznzksznsddq",
+        "title": "Informatik und Gesellschaft",
+        "uri": "informatik-und-gesellschaft",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1153",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Lehrveranstaltung 'Informatik und Gesellschaft' vermittelt den Studierenden praxisbezogenes Wissen zu den gesellschaftlichen und ethischen Herausforderungen in der Informatik. Es werden soziale und moralische Fragestellungen bezüglich der Informatik adressiert, z.B. wie kann Informatik (politisch) missbraucht werden? Inwiefern kann sie Ungerechtigkeit reproduzieren? Dabei werden auch Antworten erforscht, z.B. wie kann verantwortungsvolles oder wertsensitives Design stattfinden? Als Grundlage wird den Studierenden eine Einführung in das Themenfeld 'Informatik und Gesellschaft' sowie die Computer- und Informationsethik gegeben. Des Weiteren werden konkrete ethische Leitlinien der Informatik (GI/ACM/VDI) behandelt und Gestaltungsmethoden zur Einbindung dieser Leitlinien und ethischer Aspekte in der IT-Entwicklung vorgestellt. Auf dieser Grundlage werden Anwendungsbereiche wie beispielsweise Privatheit, geistiges Eigentum, autonome Systeme, Transparenz, Diversität, Dual Use und Cyberwar behandelt und dazu Fallbeispiele bearbeitet. Die Studierenden erlernen durch die Beschäftigung mit Fallbeispielen neben den informatikspezifischen Herausforderungen und Lösungsstrategien auch die kritische Reflexion in Bezug auf ethische und gesellschaftliche Aspekte in der Informatik. Inhalt: Einführung und Begriffserklärung in die Computer- und Informationsethik und Kurzbetrachtung relevanter Bereiche der Philosophie. Kennen und Bewerten ethischer Leitlinien verschiedener Institutionen Gestaltungsmethoden zur Berücksichtigung von ethischen Debatten in der InformatikAnwendungs- und Fallbeispiele für diese Gestaltungsmethoden (z. B. Privatheit, autonome Systeme, geistiges Eigentum)Modulhandbuch B. Sc. Informatik 43"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": " Kenntnisse zu Computer- und Informationsethik, technikphilosophischen Grundlagen, Spannungsfeldern der Informatik mit der Gesellschaft Kenntnisse von verschiedenen ethischen Leitlinien und Fähigkeit der kritischen Bewertung solcher Regelwerke Kenntnisse über Lösungsansätze zum ethischen und sozialen Umgang mit Informatik Methodenwissen zur Implementation von ethischen Regelwerken in Prozesse oder Organisationen der Informatik Befähigung, die eigene Rolle als Informatiker*in kritisch zu reflektieren Fähigkeit, Sachverhalte aus der Sicht der Informatik hinsichtlich ethischer und gesellschaftlicher Kriterien zu bewerten und ggf. Verbesserungsvorschläge zu entwickeln"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "keine"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1153-iv] (Studienleistung, Klausur, Standard)Klausur (Dauer 75 min.)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": " [20-00-1153-iv] (Studienleistung, Klausur, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Wird in der Veranstaltung bekanntgegeben."
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 44"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "vvtlgenttjbshopn",
+        "title": "Einführung in wissenschaftliches Arbeiten",
+        "uri": "einf-hrung-in-wissenschaftliches-arbeiten",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1154",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Wissenschaftliches Arbeiten beinhaltet die kritische Auseinandersetzung mit einer Problemstellung unter Anwendung wissenschaftlicher Methoden und Erkenntnisse aus aktueller Fachliteratur. Dabei sind klare Strukturierung, die Verwendung angemessener Begrifflichkeiten, inhaltliche Richtigkeit, sowie der kritische Umgang mit Literatur und den selbst generierten Erkenntnissen essentiell.Die Lehrveranstaltung 'Einführung in wissenschaftliches Arbeiten' vermittelt den Studierenden die Grundlagen des wissenschaftlichen Arbeitens in der Informatik. Hierbei werden u.a. die Literaturrecherche, die Qualitätsbewertung und Verwaltung externer Quellen, der Aufbau wissenschaftlicher Ausarbeitungen, die wissenschaftliche Argumentation, der Schreibprozess sowie die korrekte Zitierweise behandelt und den Studierenden anhand konkreter Beispiele und Aufgaben erklärt.Die praktische Anwendung wird in Übungseinheiten vertieft. Dazu werden unter anderem eigene Literaturrecherchen, Einschätzung und Bewertung ausgewählter Texte, die Anfertigung eigener Ausarbeitungen sowie gegenseitige Qualitätssicherung durch Peer-Feedback angewendet.Inhalt:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Wissenschaftliches Arbeiten - Methodische Einführung, Argumentation und Logik",
+                        " Literaturrecherche / Bibliographien - Methoden, Techniken und Werkzeuge",
+                        " Nachhaltiges Forschungsdatenmanagement, Dokumentation und Reproduzierbarkeit",
+                        " Was ist konstruktives Feedback? Qualitätskriterien und Anwendung",
+                        " Konzeption von Präsentationen und Ausarbeitungen"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Kenntnisse über Methoden und Werkzeuge der Literaturrecherche und -verwaltung",
+                        " Fähigkeit zur kritischen Einordnung externer Quellen, Kenntnisse über Normen und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Standards des ZitierensModulhandbuch B. Sc. Informatik 45"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Kenntnisse zu nachhaltiger Dokumentation von Forschungsergebnissen und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Reproduzierbarkeit von Experimenten"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Fähigkeit zum strukturierten und anschaulichen Präsentieren",
+                        " Befähigung, eigene wissenschaftliche Arbeiten unter Einhaltung gängiger "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Qualitätsstandards anzufertigen"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "keine"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1154-iv] (Studienleistung, Sonderform, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Abgaben von Ergebnissen der praktischen Anwendung von Inhalten der Veranstaltung (beispielsweise die Ergebnisse einer Literaturrecherche), Mündliche Prüfung (Dauer 15 oder30 Minuten), Hausübungen (optional: einschließlich Testaten), Klausur (Dauer 60 oder 90 oder 120 Minuten), Kolloquium (optional: einschließlich Präsentation), Portfolio"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": " [20-00-1154-iv] (Studienleistung, Sonderform, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Wird jeweils bekanntgegeben "
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 46"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "qmagjnxwrmzkircf",
+        "title": "Teamprojekt Softwareentwicklung",
+        "uri": "teamprojekt-softwareentwicklung",
+        "course": {
+            "cp": 9,
+            "sws": 270,
+            "self_study": 180,
+            "id": "20-00-1155",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Anwendung des im Rahmen der grundlegenden Veranstaltungen erworbenen Wissens im Kontext eines komplexen Softwareentwicklungsprojektes. Die einzelnen Aufgabenstellungen werden dabei von Fachgebieten der TU Darmstadt gestellt und leisten im Regelfall einen Beitrag zu deren Forschung.Schwerpunkte des Praktikums sind:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Planung und Durchführung eines Softwareentwicklungsprojektes",
+                        " Anwendung von Softwareentwicklungsprozessen",
+                        " Ermittlung und Priorisierung von Anforderungen",
+                        " Durchführung systematischer Qualitätssicherung",
+                        " Präsentationstechnik ",
+                        " Teamarbeit"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreichem Abschluss des Teamprojektes Softwareentwicklung sind die Studierenden in der Lage, folgende Aufgaben lösen zu können:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Umsetzung kleinerer Programmierprojekte über einen längeren Zeitraum (~ 6 Monate) in "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "einem kleinen Team (4 bis 5 Personen);"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Systematische Organisation und Planung von Softwareprojekten;",
+                        " Ermittlung und Dokumentation von Projektanforderungen;",
+                        " Systematische Durchführung grundlegender, dem Projekt angemessener, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Qualitätssicherung;"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Effektiver Einsatz grundlegender Softwarewerkzeuge (z.B. Testwerkzeuge, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Versionskontrollsysteme und Projektplanungswerkzeuge);Modulhandbuch B. Sc. Informatik 47"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Projektpräsentation für Außenstehende im Rahmen eines kurzen Vortrags sowie "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Darlegung des Projektstands."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Erfolgreicher Abschluss der Veranstaltungen:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Funktionale und Objektorientierte Programmierkonzepte",
+                        " Software Engineering "
+                    ]
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1155-pr] (Studienleistung, Sonderform, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Ein Programmierprojekt (optional: einschließlich der Abgabe von Quellcode, der Abgabe von Dokumentationen aus dem Bereich der Softwareentwicklung und Testaten), Hausübungen (optional: einschließlich Testaten), Kolloquium (optional: einschließlich Präsentation), Portfolio"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": " [20-00-1155-pr] (Studienleistung, Sonderform, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "paragraph",
+                    "data": "B.Sc. Informatik"
+                },
+                {
+                    "type": "paragraph",
+                    "data": "M.Sc. Informatik"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Allgemein:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Lehrbuch der Softwaretechnik: Softwaremanagement; H. Balzert; Springer",
+                        " Design Patterns - Elements of Reusable Object-Oriented Software; E. Gamma, R. Helm, R. "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Johnson, J. Vlissides; Prentice Hall "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Software Qualität - Testen, Analysieren und Verifizieren von Software; P. Liggesmeyer; "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Springer"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Writing Effective Use Cases; A. Cockburn; Pearson",
+                        " Clean Code: A Handbook of Agile Software Craftsmanship; R. C. Martin; Prentice Hall"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Weiterhin ist je nach bearbeiteter Aufgabenstellung weitere Literatur notwendig."
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 48ModulhandbuchB. Sc. InformatikB WahlpflichtbereichModulhandbuch B. Sc. Informatik 49"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "vnfojquqauvxlntd",
+        "title": "Scientific Computing ",
+        "uri": "scientific-computing-",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1156",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Grundlagen der wissenschaftlichen Modellierung und 'The Scientific Method'",
+                        " Modellbildung und Systembeschreibung am Beispiel mechanischer Systeme",
+                        " Problemspezifikation für die Simulation komplexer Modelle",
+                        " Modellbildung und -identifikation am Beispiel mechanischer Systeme",
+                        " Modellanalyse statischer Systeme durch numerische Verfahren zur Lösung linearer und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "nichtlinearer Gleichungssysteme "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Modellanalyse und Simulation dynamischer Modellen durch Anfangswertprobleme mit "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "gewöhnlichen Differentialgleichungen"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Implementierung von Modellen und Simulationen an Beispielen z.B. aus der Robotik und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "anderen Bereichen "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Validierung von Modellen und Simulationen anhand von Messdaten",
+                        " Anwendungen in der Simulation und Steuerung von Robotern sowie der physikalisch basierten "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Animation und Computerspielen"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Studierende kennen nach erfolgreichem Besuch der Veranstaltung die grundlegenden Schritte zur Entwicklung von ersten Modellen und Simulationen und sind in der Lage, erste Simulationsstudien z.B. in der Robotik durchzuführen. Sie kennen die wesentlichen Schritte zum Aufbau solcher Simulationssysteme (Problemspezifikation, Modellbildung und Parameteridentifikation, Modellanalyse, Implementierung und Validierung) und können mit diesen erste Simulationen konstruieren, die gegebene Anforderungen erfüllen. Hierbei wird die Fähigkeit erlernt für grundlegende Aufgabenstellungen in der Simulation geeignete numerische Verfahren auszuwählen und anzuwenden. "
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Mathematik I für Informatiker und Mathematik II für Informatiker oder vergleichbare VeranstaltungenModulhandbuch B. Sc. Informatik 54"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1156-iv] (Fachprüfung, Klausur, Standard)Klausur (Dauer 90 min.)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%) "
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": " [20-00-01156-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [
+                {
+                    "type": "paragraph",
+                    "data": "Literatur zu einzelnen Kapiteln der Lehrveranstaltung:R.N. Giere, J. Bickle, R. Mauldin: Understanding Scientific ReasoningF. Morrison: The Art of Modeling Dynamic SystemsL. Ljung, T. Glad: Modeling and Identification of Dynamic SystemsP. Corke: Robotics, Vision & Control, Springer, 2011F.L. Severance: System Modeling and Simulation: An Introduction, J. Wiley & Sons, 2001"
+                }
+            ],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 55"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "cqsnxgfmqzvhthpl",
+        "title": "Affective Computing",
+        "uri": "affective-computing",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1120",
+            "organizer": "Koordinatoren/Koordinatorinnen Wahlbereich ",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Einführung in das Affective Computing mit einem Überblick über die Anwendung in "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Unterhaltung, Gesundheit und Pädagogik"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Emotionstheorien: Psychologie, Kognitionswissenschaft und Neurowissenschaft",
+                        " Diskussion über Möglichkeiten, wie Maschinen Emotionen \"haben\" können",
+                        " Experimenteller Aufbau, Methodik und Analyse",
+                        " Emotionen und das Gehirn",
+                        " Körperlicher Ausdruck von Emotionen",
+                        " Synthese von emotionalem Verhalten",
+                        " Emotionen und soziale Interaktion",
+                        " Persönlichkeit und Kulturen",
+                        " Emotionserkennung in Text, Sprache und Gesicht",
+                        " Praktische Programmiererfahrung für Affective Computing",
+                        " Vorurteile und Ethik des Affective Computing"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Dieser Kurs zielt darauf ab, die Theorien, Methoden und Anwendungen rund um Affective Computing in einer interdisziplinären Perspektive zu lehren. Nach erfolgreichem Abschluss des Kurses verstehen die Studierenden affektive Interaktionen und deren Auswirkungen auf die Mensch-Computer-Interaktion, lernen Methoden zur Erhebung, Analyse und Auswertung affektiver Verhaltensdaten anzuwenden. Sie demonstrieren Kenntnisse zur computergestützten Analyse, Synthese und Erkennung menschlicher affektiver Verhaltensdaten und zum Entwurf emotionssensibler interaktiver Technologien wie Interaktionen mit virtuellen Agenten, Robotern und Spielen. Sie gewinnen praktische Erfahrung mit den Rahmenbedingungen für menschliches Affekt- und Verhaltensverständnis und ein Bewusstsein für potenzielle Verzerrungen in Daten sowie mögliche Gefahren im Umgang mit sensitiven personenbezogenen Daten."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden: Modulhandbuch B. Sc. Informatik 94"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Programmierkenntnisse",
+                        " Statistisches Maschinelles Lernen oder Einführung in die Künstliche Intelligenz"
+                    ]
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1120-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglichist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1120-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Autonome Systeme",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 95"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "xpjaqlvvpqyclacu",
+        "title": "Informationssicherheitsmanagement",
+        "uri": "informationssicherheitsmanagement",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1123",
+            "organizer": "Koordinatoren/Koordinatorinnen Wahlbereich ",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Im Rahmen der Vorlesung wird anhand eines beispielhaften, fiktiven Unternehmens dargelegt, wie Informationssicherheit ganzheitlich in alle Prozesse des Unternehmens etabliert wird.Dabei werden u.a. die folgenden Themengebiete betrachtet:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Reifegradbewertung bzgl. Informationssicherheit des Unternehmens",
+                        " Capability Maturity Model Integration (CMMI) Framework",
+                        " Etablierung einer Cyber Security Strategie",
+                        " Informationssicherheits-Governance",
+                        " Etablierung eines Informationssicherheitsmanagementsystems (ISMS) nach ISO/IEC "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "27001:2013 und nach IT-Grundschutz"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Sicherheitsbewusstsein im Unternehmen (Security Awareness)",
+                        " Key Performance Indicator zum Messen der Informationssicherheit",
+                        " Asset Management, Informationsverbunde und Prozessanalysen",
+                        " Schutzbedarfsfeststellungen und Business Impact Analysen",
+                        " Qualitatives und quantitatives Risikomanagement",
+                        " Prozesse der Risikoanalyse, -behandlung und -überwachung",
+                        " Vulnerability Management (Umgang mit IT-Schwachstellen in eigenen und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "ausgelagerten Systemen)"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Business Continuity Management (BCM)",
+                        " Business Continuity Planning (BCP)",
+                        " Sicherer IT-Betrieb, Absicherung der Betriebsprozesse",
+                        " Sichere Entwicklung",
+                        " Absicherung von Cloud-Diensten",
+                        " Management von Dienstleistern",
+                        " Incident Management: Absicherung, Erkennung und Reaktion auf Sicherheitsvorfälle",
+                        " Audit Management",
+                        " Überprüfung der eigenen Compliance und Governance"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Das Hauptziel dieser Veranstaltung ist es zu vermitteln, wie die IT- und Modulhandbuch B. Sc. Informatik 141Informationssicherheit in einem Unternehmen ganzheitlich gemanagt wird, wobei der Fokus auf dem Management und weniger auf technischer oder formaler IT-Sicherheit liegt."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Kenntnisse, Inhalte und Strukturen eines Informationssicherheitsmanagements (ISMS)",
+                        " Überblick über gängige Verfahren bzgl. Informationssicherheitsmanagement wie z.B. "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "ISO 27001, IT-Grundschutz, NIST Cybersecurity Framework"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Identifikation und Schutzbedarfsanalyse von Assets im Unternehmen",
+                        " Kenntnisse über übliche Verfahren im Risikomanagement",
+                        " Systematische Bewertung der Informationssicherheit im Unternehmen anhand von "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Metriken"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Etablierung von informationssicherheitsrelevanten Prozessen wie Vulnerability "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Management, BCM-Prozesse, Incident Management und Audit Management"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Der Besuch der Veranstaltung 'Computersystemsicherheit' wird empfohlen."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1123-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1123-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 142Modulhandbuch B. Sc. InformatikWahlbereich Komplexe vernetzte SystemeModulhandbuch B. Sc. Informatik 143"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "kinnbrcylgqdppqa",
+        "title": "Model Checking",
+        "uri": "model-checking",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1115",
+            "organizer": "Koordinatoren/Koordinatorinnen Wahlbereich ",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Temporallogiken:"
+                    ]
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Lineare temporal Logik (LTL), Computation Tree Logic (CTL) und CTL*: Syntax, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Semantik, Komplexität"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Modelprüfungsverfahren für LTL, CTL, CTL*, insbesondere Büchiautomaten",
+                        " Partial Order Reduction",
+                        " Timed Automata"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Im Rahmen des Kurses sollen die Studierenden folgende Fähigkeiten erwerben:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Verständnis der theoretischen Grundlagen der Temporallogiken LTL, CTL und CTL*",
+                        " Fähigkeit zur Auswahl der geeigneten Logik zur Spezifikation und Modellprüfung in "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Abhängigkeit von dem zu modellierenden System und der zu prüfenden Eigenschaft"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Verfahren und Techniken zur Modellprüfung (Model Checking) z.B. Modellprüfung mit "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Büchiautomaten, Partial Order Reduction u.ä."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Wissen über die Charakteristika und Grenzen der Modellprüfung",
+                        " Kenntnisse in der Modellprüfung von Timed Automate",
+                        " Fähigkeit zur Anwendung von Tools zur Modellprüfung"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden Kenntnisse in"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Aussagenlogik",
+                        " Deduktionssystemen",
+                        " Automatentheorie"
+                    ]
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1115-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard)Modulhandbuch B. Sc. Informatik 211Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1115-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Künstliche Intelligenz und Machine Learning",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 212"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "vezurocfcyifhtfe",
+        "title": "Hands-On HCI",
+        "uri": "hands-on-hci",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1116",
+            "organizer": "Koordinatoren/Koordinatorinnen Wahlbereich ",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Vielleicht haben Sie bereits von Virtual / Augmented Reality, 3D-Druck, am Körper getragenen oder anfassbaren (tangible) Benutzeroberflächen gehört oder diese sogar ausprobiert. Der Bereich Human-Computer-Interaktion (HCI) deckt all diese spannenden Themen ab und bietet die Möglichkeit, neue Prototypen zu bauen und diese in Benutzerstudien auszuprobieren. Wenn Sie Theorie und Praxis im Bereich der HCI verbinden möchten ist dieser Kurs - Hands-On HCI - genau das Richtige für Sie. Das Ziel des Kurses ist es, Sie durch den gesamten Forschungszyklus im Bereich der HCI zu führen. Damit kann dieser Kurs eine Vorbereitung für Ihre zukünftige Bachelor- / Masterarbeit in diesem Bereich sein, sowie einen ersten Baustein auf Ihrem akademischen Weg darstellen."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach Abschluss des Moduls können Studierende"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " drei Ansätze zur HCI-Forschung voneinander unterscheiden und anwenden.",
+                        " drei Arten empirischer Untersuchungen unterscheiden.",
+                        " effektiv eine wissenschaftliche Publikation lesen.",
+                        " zwischen Arten von HCI-Beiträgen unterscheiden.",
+                        " Forschungsfragen, Hypothesen und experimentelle Variablen formulieren und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "definieren."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " basierend auf den zuvor erarbeiteten Forschungsfragen ein dazu passendes "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Studiendesign entwerfen."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " eine Studie durchführen und dabei quantitative und qualitative Methoden zur "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Datensammlung verwenden."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " quantitative Daten auf der Basis von statistischen Methoden analysieren, auswerten und "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "interpretieren."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " qualitative Daten auf der Basis von Grounded Theory analysieren und interpretieren.",
+                        " den Peer-Review Prozess verstehen und sowie Reviews für eine wissenschaftliche "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Publikation schreiben.Modulhandbuch B. Sc. Informatik 213"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Evaluationstechniken mit und ohne Nutzern verstehen und anwenden.",
+                        " die gewonnenen Erkenntnisse als wissenschaftliche Publikation verschriftlichen und vor "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "einem Fachpublikum präsentieren."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen wird die vorherige Belegung von 'TK2: Human-Computer Interaction' oder einer vergleichbaren Veranstaltung."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1116-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1116-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 214"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "moggfwvqbvxldhzn",
+        "title": "1.1.2. Mensch- und Identitätsfokussiertes Maschinelles Lernen",
+        "uri": "1.1.2.-mensch--und-identit-tsfokussiertes-maschinelles-lernen",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1118",
+            "organizer": "Koordinatoren/Koordinatorinnen Wahlbereich ",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Hintergründe und Konzepte von Human-Centric Machine Learning: Das Ziel von Identität und Human-Centric Machine Learning. Die Unterschiede zwischen Identitätslernen und anderen gängigen Klassifikationsarten.Repräsentationsextraktion für subjektbezogene Daten: Methoden für die Feature Erstellung für identitätsbezogene Anwendungen. Grundlagen und Hintergründe für handgefertigte oder Deep Learning Features.Deep-Learning Strategien für Identitätsrepräsentationen: Erlernen von Identitätsrepräsentationen mit Hilfe von Deep Learning. Lernstrategien und Loss-Funktionen.Netzwerkarchitekturen und identitätsspezifische Komponenten.Knowledge Transfer und Distillation: Transfer Learning und Identitätsrepräsentation. Konzepte und Anwendungen von Knowledge Distillation.Effizientes Machine Learning: Beziehung zwischen Ressourcenbeschränkungen, Green-AI und Deep Learning. Methoden zum Aufbau effizienter Lösungen für Maschinelles Lernen.Synthetische Identität: Die Notwendigkeit einer synthetischen Identität. Synthetische Identität als Adversarial. Generierung synthetischer identitätsgesteuerter Daten unterverschiedenen Einschränkungen.Machine Learning Biases: Analyse der demografischen Fairness und der Ursachen der Fairnessprobleme. ML-basierte Abmilderung von demografischen Bias.Privatsphäre erlernen: Analyse von unbeabsichtigt gelernten Informationen. Lernstrategien zur gezielten Unterdrückung von Informationen auf verschiedenen Repräsentationsebenen.Modulhandbuch B. Sc. Informatik 215Data Utility: Verständnis der Auswirkungen von Data Utility im Lernprozess. Verstehen von Sample Utility im Betrieb. ML-Konzepte und Strategien zur Schätzung von Sample Utilities.Angriffe auf Sample-Level: Überblick über Adversarial, Sample Manipulation und andere Angriffe auf Human-Centric ML. Deep Learning Konzepte, Netzwerkblöcke und LossStrategien um Sample-Level Angriffe zu erkennen und zu umgehen.Explainability: Überblick über den Bedarf von Explainability in verschiedenenen Entscheidungsprozessen. Verschiedene Strategien um Explainability für Themen aus vergangenen Vorlesungen."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreichem Besuch des Kurses sind die Studierenden mit Konzepten desmaschinellen Lernens im Umgang mit personen- und identitätsbezogenen Informationenvertraut. Sie verstehen die grundlegenden Techniken für die Extraktion subjektspezifischer Repräsentationen, einschließlich der damit verbundenen Konzepte für Knowledge Transfer und Distillation. Die Studierenden haben ein Verständnis für demografisch bedingte Verzerrungen beim maschinellen Lernen und Datenschutzbedenken zu Function-Creep erlangt, einschließlich der wichtigsten Konzepte zur Abschwächung dieser Probleme. Sie kennen die Anforderungen und Techniken, die für ein eingebettetes und effizientes HumanCentric Machine Learning erforderlich sind. Ebenfalls sind sie mit den Auswirkungen von Data Utility im Lernprozess und dem Hauptkonzept zur Schätzung der Utility von subjektbezogenen Daten vertraut. Sie werden fundiertes Wissen über die Erklärungsmethoden für ML-Entscheidungen auf der Grundlage von identitätsbezogenen Daten erlangen. Die Studierenden werden in die Konzepte der KI-Ethik und der KIRegulierung im Zusammenhang mit der Verarbeitung und Speicherung personenbezogener Daten eingeführt. Sie sind in der Lage, diese Techniken zur Lösung grundlegender Aufgaben im Bereich von Identitäts- und Human-Centric Machine Learning auf realistische Probleme anzuwenden."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Der vorherige Besuch der Veranstaltung 'Visual Computing' oder einer vergleichbaren Veranstaltung. Grundlagen in Mathematik und Wahrscheinlichkeitsrechnung."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1118-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten)Modulhandbuch B. Sc. Informatik 216"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1118-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Autonome Systeme",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 217"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "rtqlqnocywidyhwm",
+        "title": "Programmanalyse",
+        "uri": "programmanalyse",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1122",
+            "organizer": "Koordinatoren/Koordinatorinnen Wahlbereich ",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Statische Analysen sind Werkzeuge die Informationen von Programmen extrahieren ohne diese auszuführen. Statische Analysen haben vielseitige Anwendungen in integrierten Entwicklungsumgebungen (IDEs), Compilern und Continous Integration Servern. Zum Beispiel werden statische Analysen in IDEs verwendet um Programmfehler und Sicherheitslücken zu erkennen. Des Weiteren werden sie in Compilern zum Typechecking und für Optimierungen verwendet.DIeser Kurs gibt einen Überblick über die zugrundeliegende Konzepte von statischen Analysen. Insbesondere diskutieren wir den Kompromiss zwischen der Performanz, der Präzision, und der Korrektheit von statischen Analysen. Des Weiteren werden Ihnen verschieden Sorten von statischen Analysen vorgestellt, wie zum Beispiel Kontrollflussanalysen, Datenflussanalysen, Zeigeranalysen, sowie Seiteneffekt- und Unveränderlichkeitsanalysen. Abschließend lernen sie verschiedene Analyseframeworks kennen, wie das monotone Framework, Big-Step Abstrakte Interpreter und IFDS/IDE Frameworks.In der begleitenden Übung wenden Sie die neuen Analysekonzepte praktisch an, und erweitern oder entwickeln existierende Analysen."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Das Ziel dieses Kurses ist es die zugrundeliegenden Konzepte von statischen Analysen zu vermitteln. Dies erlaubt es Studierenden statische Analysen in IDEs effektiver zu verwenden. Des Weiteren sind Studierende nach dem Kurs in der Lage Eigenschaften von statischen Analysen wie Performanz und Präzision zu beurteilen"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Wir erwarten, dass Studierende die Konzepte der Programmiersprachen, wie Zuweisungen, Schleifen, Ausnahmebehandlung, Objekte, und anonyme Funktionen gut verstanden haben. Des Weiteren sollten die Kursteilnehmer*innen mit grundlegender Universitätsmathematik und Logik vertraut sein.Modulhandbuch B. Sc. Informatik 218"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1122-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1122-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 219"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "vynjkuucrsjdcarw",
+        "title": "Einführung in das Quantencomputing",
+        "uri": "einf-hrung-in-das-quantencomputing",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1136",
+            "organizer": "Koordinatoren/Koordinatorinnen Wahlbereich ",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Fachprüfung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Allgemeine Einführung und MotivationEinführung in die Quantenmechanik (Zustände, Messungen, Evolution, ein kurzer Überblick zur linearen Algebra)Elementare Quantengatter und SchaltkreismodellUniverselle QuantenberechnungenQuantenparallelismus und der Deutsch-Jozsa-AlgorithmusSimon's AlgorithmDie Fourier-TransformationDer Shor-AlgorithmusDas Problem der versteckten UntergruppeDer Grover-AlgorithmusQuantenfehlerkorrektur und FehlertoleranzVerschränkung und NichtlokalitätEine grundlegende Einführung in die QuantenschlüsselverteilungÜberblick über Quantencomputerplattformen und Aussagen zur Quantenüberlegenheit"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach Abschluss des Kurses sind die Studierenden mit allen grundlegenden Konzepten der Quanteninformationsverarbeitung und -berechnung vertraut und können diese mit der Quantenprogrammiersprache Qiskit programmieren. Sie lernen die wichtigsten \"Eigenheiten\" der Quantenwelt kennen und können diese mit rechnerischen und kryptographischen Aufgabenstellungen verbinden. Am Ende der Vorlesung wird eine Zusammenfassung der neuesten Entwicklungen in Industrie und Wissenschaft gegeben, die es den Studierenden ermöglicht, ihre zukünftigen Interessen in diesem Bereich zu steuern."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden grundlegende Kenntnisse in elementarer linearer Algebra (Matrixmultiplikation, Ermittlung von Eigenwerten)Modulhandbuch B. Sc. Informatik 237"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1136-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), Hausübungen (optional: einschließlich Testaten)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden grundlegende Kenntnisse in elementarer linearer Algebra (Matrixmultiplikation, Ermittlung von Eigenwerten)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1136-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 238Modulhandbuch B. Sc. InformatikWahlbereich Studienbegleitende Leistungen Praktika, Projektpraktika und ähnliche VeranstaltungenModulhandbuch B. Sc. Informatik 239"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "glmzosyefoiaejdt",
+        "title": "1.1.3. Hardware-Entwurf für die Videoverarbeitung",
+        "uri": "1.1.3.-hardware-entwurf-f-r-die-videoverarbeitung",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-0958",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "In diesem Praktikum geht es um die Verarbeitung von Videodatenströmen in Echtzeit durch spezialisierte Hardware-Einheiten. Solche Probleme sind hoch relevant im industriellen Einsatz und werden im Praktikum an einer Anwendung (Corner Detector) aus dem Bereich autonomer Fahrzeuge vorgestellt.Die dafür nötigen Hardware-Beschleuniger sollen in einer Hardware-Beschreibungssprache entworfen, im Simulator validiert und dann in ein reales FPGA-basiertes Hardware-System integriert werden.Dabei werden als Kontrast zu den üblicherweise am FG ESA in Ausbildung und Forschung eingesetzten Technologien hier die Hardware-Beschreibungssprache VHDL sowie FPGA-Systeme der Fa. Altera, speziell auch die Entwurfswerkzeuge Quartus und Qsys eingesetzt. Die Veranstaltung beginnt mit einer Kurzeinführung in die Sprache in VHDL und die EDA/CAD-Werkzeuge, Details sollen sich die Teilnehmenden anhand des bereitgestellten Hintergrundmaterials selbst erarbeiten."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreicher Teilnahme können die Studierenden Echtzeit-Hardwarebeschleuniger für den Bereich Videoverarbeitung in der Hardware-Beschreibungssprache VHDL entwerfen und mittels Simulation validieren. Sie können durch Verwendung der EAD/CAD-Werkzeuge ihre Entwürfe in ein rekonfigurierbares System-on-Chip integrieren. Sie können die entstehenden Systeme evaluieren und aus den beobachteten Charakteristika Rückschlüsse für die weitere Entwicklung ziehen."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Erfolgreicher Besuch der Vorlesungen 'Digitaltechnik', 'Rechnerorganisation', 'Architektur und Entwurf von Rechnersystemen' und idealerweise auch 'Visual Computing' oder vergleichbare Kenntnisse aus anderen Studiengängen.Modulhandbuch B. Sc. Informatik 316"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-0958-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: einschließlich Präsentation)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-0958-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 317"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "knydmrpobvwywtrr",
+        "title": "Forschungsmethodik in der Kryptographie",
+        "uri": "forschungsmethodik-in-der-kryptographie",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1126",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Die moderne Kryptographie bietet eine Vielzahl von innovativen Werkzeugen und Techniken, die zur Lösung komplexer Sicherheitsprobleme eingesetzt werden können. Ziel der Veranstaltung ist das Erlernen der wissenschaftlichen Methodik der modernen Kryptographie. Dazu soll in einer kleinen Gruppe zusammen mit den Lehrenden eine wissenschaftliche Arbeit in der Kryptographie verfasst werden. Es soll der gesamte Prozess von der initialen Forschungsidee bis zur Einreichung einer Publikation durchlaufen werden. Unter anderem werden Techniken zur Literaturrecherche, Diskussion über Forschungsfragen und das Verfassen von wissenschaftlichen Arbeiten behandelt. Voraussetzung für den Kurs ist die Vorlesung 'Einführung in die Kryptographie'. Der Besuch weiterer Spezialveranstaltungen im Bereich Kryptographie und IT Sicherheit ist von Vorteil. Insbesondere sollten Teilnehmer mit den Grundtechniken der modernen Kryptographie vertraut sein (kryptographische Bausteine, Sicherheitsdefinitionen, Reduktionsbeweise)."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Lernergebnis:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Verfassen von wissenschaftlichen Arbeiten in der Kryptographie",
+                        " Erlernen von fortgeschrittenen Techniken der modernen Kryptographie",
+                        " Durchführen von Literaturrecherche in der Kryptographie"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Vorlesung 'Einführung in die Kryptographie' wird empfohlen."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1126-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Modulhandbuch B. Sc. Informatik 378Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: einschließlich Präsentation)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1126-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 379"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "vexelurlloyzfqxn",
+        "title": "Leistungsanalyse und Modellierung von Softwaresystemen",
+        "uri": "leistungsanalyse-und-modellierung-von-softwaresystemen",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1130",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes Semester",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Ziel dieses Praktikums ist:1) Erfahrungen im Design von Experimenten zu sammeln, die die Leistung komplexer Softwaresysteme messen,2) Ergebnisse verarbeiten und analysieren3) Modelle erstellen, die das Verhalten des Systems beschreiben.Die experimentellen Ergebnisse und die Modelle werden verwendet, um die Komponenten des Systems zu bestimmen, die den Engpass für die Leistung darstellen.Die im Praktikum erworbenen Fähigkeiten sollen für eine Vielzahl von Karrierewegen relevant sein: Studierende, die später in Systeme-Bereich promovieren, Data Scientists, die mit großen verteilten Pipelines arbeiten werden, Software Engineers und DevOps, die an der Verbesserung der Leistung von IT-Systemen arbeiten.Um die oben genannten Ziele zu erreichen, werden wir einerseits über die relevante Theorie sprechen (z.B., Statistical methods, Little's Law, Queuing Theory) und andererseits eine Datenverarbeitungsanwendung implementieren. Anschließend wird die Anwendung einem Benchmarking unterzogen und detailliert modelliert.Das Praktikum schließt mit kurzen Projektpräsentationen ab, in denen die Studierenden zeigen, dass sie das Verhalten ihrer Implementierung verstanden haben und anhand der experimentellen Daten und der von ihnen erstellten Modelle Ideen zur Beseitigung von Bottlenecks liefern können"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach Besuch der Veranstaltung können Studierende:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Zwischen verschiedenen Experimenttypen wählen, um leistungsbezogene Fragen zu "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "einem Softwaresystem zu beantworten"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Detaillierte Modelle eines Softwaresystems erstellen",
+                        " Bottleneck-Analysen durchführen"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 380"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " die Ergebnisse der Experimente zusammenfassen und präsentieren"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Studierenden sollten Einführungskurse in Computerarchitektur, Betriebssysteme und Java-Programmierung besucht haben."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1130-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: einschließlich Präsentation)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1130-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 381"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "njdglpcfwpkkimak",
+        "title": "Projektpraktikum - Systematische Analyse und Entwicklung von innovativen Systeme",
+        "uri": "projektpraktikum-systematische-analyse-und-entwicklung-von-innovativen-systeme",
+        "course": {
+            "cp": 9,
+            "sws": 270,
+            "self_study": 180,
+            "id": "20-00-1137",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Diese Veranstaltung behandelt aktuelle Themen aus der Forschung und Entwicklung mit Schwerpunkt auf Sicherheit.Analysieren und Entwickeln von Sicherheitslösungen sind komplexe Aufgaben, die Kenntnisse aus unterschiedlichen Gebieten der Informatik voraussetzen. Das Ziel dieser Veranstaltung ist es Kompetenzen aus unterschiedlichen Bereichen im Rahmen eines Projekts aus dem Sicherheitsbereich zu vereinen.Im Rahmen dieser Veranstaltung, werden Aufgaben aus einem sehr breiten Spektrum (von Algorithmik, Raumfahrt, und maschinellem Lernen bis hin zur Softwareanalyse, Hardwareentwicklung und Reverse Engineering) präsentiert.Die endgültigen Aufgaben werden individuell und entsprechend der Interessen/Kompetenzen der Teilnehmer festgelegt.Abhängig von dem Umfang und dem Niveau der Aufgabe, wird diese Veranstaltung als Praktikum (InoSys-Lab mit 6CP) oder als Projektpraktikum (InoSys-Projekt mit 9CP) zu absolvieren sein. Diese Art wird individuell und aufgabenspezifisch festgelegt. Bei der Wahl zwischen beiden Arten, und sofern wie die Natur der Aufgabe es erlaubt, bekommen die Studierenden die Möglichkeit sich intellektuell in der Gestaltung der Aufgabe beteiligen.Bemerkung:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Abhängig vom Thema, werden die Teilnehmer die Gelegenheit/Unterstützung in/beim "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Erwerben neuer Kompetenzen erhalten."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Gruppenarbeit wird zwar bevorzugt und stark empfohlen jedoch ist eine "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Einzelteilnahme auch möglich."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreichem Absolvieren dieser Veranstaltung haben die Studierenden praxis/forschungsnahe Erfahrungen in Analysieren und Entwicklung von komplexen Projekten gesammelt. Sie werden in der Lage sein diese Erfahrungen zu reproduzieren Modulhandbuch B. Sc. Informatik 382und Projekte von vergleichbarer Komplexität eigenständig zum Erfolg führen."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Die empfohlenen Anforderungen sind aufgabenabhängig und werden bei der Einführungsveranstaltung bekannt gegeben."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1137-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: einschließlich Präsentation)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1137-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 383"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "ztqyzbaajfrocavd",
+        "title": "Praktikum - Systematische Analyse und Entwicklung von innovativen Systeme",
+        "uri": "praktikum-systematische-analyse-und-entwicklung-von-innovativen-systeme",
+        "course": {
+            "cp": 6,
+            "sws": 180,
+            "self_study": 120,
+            "id": "20-00-1138",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Diese Veranstaltung behandelt aktuelle Themen aus der Forschung und Entwicklung mit Schwerpunkt auf Sicherheit.Analysieren und Entwickeln von Sicherheitslösungen sind komplexe Aufgaben, die Kenntnisse aus unterschiedlichen Gebieten der Informatik voraussetzen. Das Ziel dieser Veranstaltung ist es Kompetenzen aus unterschiedlichen Bereichen im Rahmen eines Projekts aus dem Sicherheitsbereich zu vereinen.Im Rahmen dieser Veranstaltung, werden Aufgaben aus einem sehr breiten Spektrum (von Algorithmik, Raumfahrt, und maschinellem Lernen bis hin zur Softwareanalyse, Hardwareentwicklung und Reverse Engineering) präsentiert.Die endgültigen Aufgaben werden individuell und entsprechend der Interessen/Kompetenzen der Teilnehmer festgelegt.Abhängig von dem Umfang und dem Niveau der Aufgabe, wird diese Veranstaltung als Praktikum (InoSys-Lab mit 6CP) oder als Projektpraktikum (InoSys-Projekt mit 9CP) zu absolvieren sein. Diese Art wird individuell und aufgabenspezifisch festgelegt. Bei der Wahl zwischen beiden Arten, und sofern wie die Natur der Aufgabe es erlaubt, bekommen die Studierenden die Möglichkeit sich intellektuell in der Gestaltung der Aufgabe beteiligen.Bemerkung:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Abhängig vom Thema, werden die Teilnehmer die Gelegenheit/Unterstützung in/beim "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Erwerben neuer Kompetenzen erhalten."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Gruppenarbeit wird zwar bevorzugt und stark empfohlen jedoch ist eine "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Einzelteilnahme auch möglich."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreichem Absolvieren dieser Veranstaltung haben die Studierenden praxis/forschungsnahe Erfahrungen in Analysieren und Entwicklung von komplexen Projekten gesammelt. Sie werden in der Lage sein diese Erfahrungen zu reproduzieren Modulhandbuch B. Sc. Informatik 384und Projekte von vergleichbarer Komplexität eigenständig zum Erfolg führen."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Die empfohlenen Anforderungen sind aufgabenabhängig und werden bei der Einführungsveranstaltung bekannt gegeben."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1138-pr] (Studienleistung, mündliche / schriftliche Prüfung Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: einschließlich Präsentation)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1138-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 385"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "vybdkcyayxsxhvhx",
+        "title": "1.1.4. CORONA-CON",
+        "uri": "1.1.4.-corona-con",
+        "course": {
+            "cp": 4,
+            "sws": 120,
+            "self_study": 90,
+            "id": "20-00-1099",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Das Thema dieses Seminars ist es, einen allgemeinen Überblick über mögliche Einsatzmöglichkeiten digitaler Technologien bei der Bewältigung von Ausnahmesituationen, wie der aktuellen COVID 19-Pandemie zu geben und konkrete Handlungsvorschläge zu entwickeln."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Studenten werden sich am Beispiel der Risikoeinschätzung und Kontrollstrategien die folgenden Fertigkeiten aneignen:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Einarbeitung in komplexe Fragestellungen",
+                        " Durchführung von Literaturrecherchen",
+                        " Teamarbeit",
+                        " Erarbeitung eigener Lösungen"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlene Vorkenntnisse: Konzepte der Computersicherheit und des Datenschutzes"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1099-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Hausarbeit"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: Modulhandbuch B. Sc. Informatik 518 [20-00-1099-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 519"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "nybbrihmbutnrfcb",
+        "title": "1.1.5. Seminar Informatik, Ethik und Gesellschaft",
+        "uri": "1.1.5.-seminar-informatik-ethik-und-gesellschaft",
+        "course": {
+            "cp": 4,
+            "sws": 120,
+            "self_study": 75,
+            "id": "20-00-1102",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Im Seminar werden fortgeschrittene wissenschaftliche Themen des Fachgebiets 'Wissenschaft und Technik für Frieden und Sicherheit' (PEASEC) bearbeitet. Basierend auf einer Einführung/Wiederholung der Methoden wissenschaftlichen Arbeitens und ausgewählter Grundlagen werden fortgeschrittene Themen vergeben, die sich an der aktuellen Forschung des Fachgebiets orientieren, und von Studierenden mit wissenschaftlichen Methoden bearbeitet werden. Im Laufe des Semesters werden wissenschaftliche Artikel ('Paper') erarbeitet und präsentiert. Wie bei wissenschaftlichen Arbeiten üblich werden diese mithilfe eines studentischen Review-Verfahrens gegenseitig konstruktiv begutachtet und anschließend zur Fertigstellung und Abgabe überarbeitet.BEISPIELHAFTE THEMENBEREICHE:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Verantwortung und Ethik in der Informatik (Leitlinien des GI/ACM/VDI, praktische "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Rolle der Ethik in der Informatik)"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Verantwortung im Design (Responsible Research and Innovation, Wertsensitives Design, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Technikfolgenabschätzung, Dual-Use-Assessment, ELSI-Design)"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Privatsphäre, Datenschutz und Überwachung",
+                        " Kritische Informatik (Machtstrukturen, Werteauffassungen, politische Dimensionen)",
+                        " Autonome Systeme, Künstliche Intelligenz und Verantwortung",
+                        " Frieden, Sicherheit, Militärtechnologie und Dual-Use",
+                        " Diversität in der Informatik (Barrierefreiheit, Accessibility, Disability, Gender, Aging, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kultur)"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Sprache: Propaganda, Fake News, Trolling und Hate Speech",
+                        " Transparenz, Explainable AI, White Box Algorithmen, Gerechte Algorithmen, "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Steuerbarkeit"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach Abschluss des Moduls sind Studierende in der Lage,"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " ethische und soziale Aspekte der Informatik sowie ihre professionellen ethischen "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Leitlinien zu beschreiben."
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Lösungsansätze zum ethischen und sozialen Umgang mit Informatik zu nennen.",
+                        " Kriterien für gutes wissenschaftliches Arbeiten zu nennen",
+                        " wissenschaftliche Forschungsfragen im Kontext ethischer Aspekte der Informatik zu "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 520erarbeiten und unter Anwendung einer wissenschaftlichen Methode zu beantworten"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " ihr wissenschaftliches Vorgehen reflektiert in einer Fachdiskussion zu verteidigen",
+                        " wissenschaftliche Beiträge Anderer in einem 'Peer-Review' konstruktiv zu begutachten"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden Grundlagen in mindestens einem der Bereiche: Informatik, IT-Sicherheit, Mensch-Computer-Interaktion oder Friedens- und Konfliktforschung, Grundkenntnisse in den Themengebieten des Fachgebiets PEASEC"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1102-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Hausarbeit"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1102-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 521"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "kujjfnqcdguoaawv",
+        "title": "Seminar Kryptographie",
+        "uri": "seminar-kryptographie",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1103",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Im Seminar werden aktuelle Forschungsresultate aus dem Gebiet der Kryptographie von den Studierenden vorgestellt."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Im Bereich der fachlichen und fachlich methodischen Kompetenzen werden die Studierenden nach der Veranstaltung das Vorwissen aus dem Bereich der Kryptographie auf neue wissenschaftliche Arbeiten anwenden können. Im Bereich der kommunikativen Kompetenzen werden die Studierenden dann wissenschaftliche Arbeiten so analysieren können, dass sie den fachlichen Stoff daraus präsentieren können."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden: Einführung in die Kryptographie, andere weiterführende Veranstaltungen im Bereich Kryptographie"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1103-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Hausarbeit"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 522Bausteinbegleitende Prüfung: [20-00-1103-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 523"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "hyladaqyxrldwjrg",
+        "title": "Verfassen und Beurteilen Wissenschaftlicher Veröffentlichungen in der IT-Sicherheit",
+        "uri": "verfassen-und-beurteilen-wissenschaftlicher-ver-ffentlichungen-in-der-it-sicherheit",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1105",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Die Studierenden verfassen eine kurze wissenschaftliche Arbeit im Bereich IT-Sicherheit und beurteilen die Arbeiten der anderen in einer konferenz-ähnlichen Umgebung."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Im Bereich der kommunikativen Kompetenzen werden die Studierenden gelernt haben, wie man wissenschaftliche Resultate darstellt und wie man wissenschaftliche Arbeiten bewertet. Im Bereich der organisatorischen Kompetenzen werden sie die Abläufe von Konferenzen und den Einsatz entsprechender Systeme erlernt haben."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Kenntnisse in IT-Sicherheit, erste Erfahrungen im Verfassen von wissenschaftlichen Arbeiten, z.B. Bachelor-Arbeit"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1105-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Hausarbeit"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: Modulhandbuch B. Sc. Informatik 524 [20-00-1105-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 525"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "nazqlimlxwuvacja",
+        "title": "Sicherheit und Privatheit in vernetzten Systemen",
+        "uri": "sicherheit-und-privatheit-in-vernetzten-systemen",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1106",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Im Seminar werden fortgeschrittene wissenschaftliche Themen der IT-Sicherheit bearbeitet. Studierende können aus einer Reihe vorgestellter Themen wählen und dieses mit wissenschaftlichen Methoden bearbeiten. Im Laufe des Semesters wird ein eigener wissenschaftlicher Artikel erarbeitet und am Ende präsentiert.BEISPIELHAFTE THEMENBEREICHE:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " IoT- und Funkprotokolle (u.a. Bluetooth LE, Bluetooth Mesh, LoRaWAN)",
+                        " Physical Layer"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Security (u.a. Distance Bounding, Direction Finding)"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Eingebettete Systeme",
+                        " Software Defined Radio"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Am Ende der Veranstaltung sind die Studierenden in der Lage, sich in ein wissenschaftliches Thema einzuarbeiten, den aktuellen Stand der Forschung zu einer bestimmten Fragestellung zu beantworten sowie die Ergebnisse im Stil einer Publikation festzuhalten und zu präsentieren."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Vorwissen im Bereich IT-Sicherheit, beispielsweise durch Besuch entsprechender Lehrveranstaltungen, wird empfohlen."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1106-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), HausarbeitModulhandbuch B. Sc. Informatik 526"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1106-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 527"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "qunmiykjwuwlgaoa",
+        "title": "Konzeptentwurf für ein (Informatik-)Studium der angepassten Geschwindigkeit",
+        "uri": "konzeptentwurf-f-r-ein-(informatik-)studium-der-angepassten-geschwindigkeit",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1124",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "In diesem Seminar entwickeln Teilnehmer*innen Konzepte, die den Start ins Informatikstudium erleichtern und die Fähigkeit zur Selbstreflexion stärken, um die eigene Studienwahl (kritisch) zu hinterfragen. Dazu sollen Strukturen und Inhalte entwickelt werden, die die Motivation für das Studienfach (in all seinen Facetten) stärken und einen Einblick in die Vielschichtigkeit des Faches geben.Das Seminar gibt die Möglichkeit, das eigene Studium zu reflektieren, sich mit wissenschaftlicher Literatur zur Hochschullehre auseinanderzusetzen und daraus resultierend eigene Konzepte für die Lehre zu erstellen. Zur Bedarfserhebung wird im Seminar eine Umfrage erstellt. Darauf aufbauend soll in Kleingruppen ein konsistentes, umfassendes Konzept für ein Ergänzungsprogramm erstellt werden. Abschließend werden die Konzepte vorgestellt und diskutiert."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreicher Teilnahme am Seminar können Studierende:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " wissenschaftliche Literatur zur Hochschuldidaktik verstehen und auf konkrete "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Lehrinhalte beziehen"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Herausforderungen im eigenen Studiengang analysieren und klar benennen",
+                        " Konzepte für zusätzliche Lernangebote zu bestehenden Lerninhalten erstellen",
+                        " sich als Gruppe koordinieren und absprechen, um zu einem gemeinsamen Ergebnis zu "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "kommen"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " kleine qualitative Umfragen erstellen und die Ergebnisse auswerten",
+                        " die Ergebnisse in einem Vortrag präsentieren"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen wird das Studium eines Informatik-Studiengangs seit mindestens zwei SemesternModulhandbuch B. Sc. Informatik 528"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1124-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Hausarbeit"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1124-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 529"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "ylfucppunpoxlcsx",
+        "title": "Humanoide Robotik",
+        "uri": "humanoide-robotik",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1125",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "In diesem Seminar werden verschiedene Problemstellungen aus dem Bereich der humanoiden Robotik behandelt, z.B. zur Fortbewegung und Ganzkörpersteuerung, Planung oder Wahrnehmung. Im Rahmen dieses Seminars sollen die Studierenden die Fähigkeit erwerben, einen unbekannten Text selbstständig zu erarbeiten, einen wissenschaftlichen Artikel zu verfassen und dessen Inhalt vor einem Fachpublikum zu präsentieren."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Am Ende dieses Kurses verstehen die Studierenden aktuelle Forschungsthemen der humanoiden Robotik und können:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " sich anhand von wissenschaftlichen Publikationen selbstständig in ein Themengebiet "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "einarbeiten und"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " ihre Ergebnisse mündlich und schriftlich vor einem Fachpublikum präsentieren."
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Die gleichzeitige oder vorherige Teilnahme an den Lehrveranstaltungen \"Grundlagen der Robotik\" und/oder \"Lernende Roboter\" oder vergleichbaren Veranstaltungen wird empfohlen."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1125-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Hausarbeit"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)Modulhandbuch B. Sc. Informatik 530"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1125-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Künstliche Intelligenz und Machine Learning"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 531"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "dzgqhjlazzfdfzsp",
+        "title": "Deduktive und Interaktive Verifikationswerkzeuge",
+        "uri": "deduktive-und-interaktive-verifikationswerkzeuge",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1128",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "In dem Seminar werden aktuelle Verifikationstools und Beweisassistenten vorgestellt.Es werden dabei sowohl die theoretischen Grundlagen auf denen die Werkzeuge aufbauen vorgestellt, als auch deren praktische Anwendung anhand einer gemeinsamen Beispielsammlung. Damit soll ein Vergleich der unterschiedlichen Ansätze ermöglicht werden."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nachdem Studierende das Seminar besucht haben, können sie"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " sich kritisch mit einer wissenschaftlichen Arbeit auseinandersetzen",
+                        " einen wissenschaftlichen Vortrag halten",
+                        " Stärken und Schwächen verschiedener Ansätze zur deduktiven Verifikation, des "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "interaktiven Theorembeweisens sowie der existierenden Werkzeuge einschätzen und vergleichen"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Verifikationswerkzeuge auf praktische Problemstellungen anwenden",
+                        " einen Überblick über den aktuellen Stand der Forschung im Bereich der deduktiven "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Verifikation und des interaktiven Beweisen gebe"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden grundlegende Kenntnisse in Logik (Aussagen- und Prädikatenlogik) sowie ein starkes Interesse an deduktiver Verifikation."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1128-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), HausarbeitModulhandbuch B. Sc. Informatik 532"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1128-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 533"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "fvhiutynvnioethv",
+        "title": "Theoretische Neurowissenschaft",
+        "uri": "theoretische-neurowissenschaft",
+        "course": {
+            "cp": 3,
+            "sws": 90,
+            "self_study": 60,
+            "id": "20-00-1129",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Gegenstand des Seminars ist die Vermittlung von Methoden der Modellbildung für die Neurowissenschaften. Die Funktionssysteme des Nervensystems einschließlich dem Gehirn gehören zu den komplexesten Wirkungsgefügen, die wir in der Natur beobachten können. Darüber hinaus sind biologische neuronale Netzwerke kognitive Systeme, die allein deswegen von besonderem Interesse für die Informatik sind. Die Modellbildung neuronaler Systeme lässt sich gut auf andere nicht-biologische Systeme anwenden (z.B. autonome Systeme, Verkehrsnetzwerke, Logistik) und dienen daher als geeigneter Use Case, um entsprechende Methodenkompetenz zu entwickeln. Im Seminar werden wir uns mit beobachtbaren und simulierbaren nicht-linearen Dynamiken beschäftigen, die im Nervensystem auf unterschiedlichen Zeitachsen miteinander reziprok gekoppelt sind, wie zum Beispiel neuronale elektrische Aktivitäten und aktivitätsabhängige plastische Prozesse, die auf einer anderen Zeitachse wiederum den Aktivitätsfluss verändern. Anhand von Originalpublikation werden informatische und mathematische Methoden vermittelt, um solche Prozesse und Systeme zu modellieren. An verschiedenen neuronalen Funktionssystemen wie z.B. dem visuellen oder dem hippokampalen Funktionssystem zur Gedächtnisbildung werden die o.g. Modelle entwickelt."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreicher Teilnahme an dem Seminar sind die Teilnehmer*innen in der Lage,"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " neuronale Funktionssysteme in ihren Teilen und Funktionsbezügen zu beschreiben.",
+                        " verschiedene Funktionssysteme einander gegenüberzustellen.",
+                        " mathematische Methoden für nicht-lineare Dynamiken zu kennen.",
+                        " gewöhnliche Differenzialgleichungen für Simulatoren zu implementieren.",
+                        " aus unterschiedlichen Simulationsumgebungen (NEST, Neuron, etc.) auszuwählen.",
+                        " über biologische Details zu abstrahieren und ein formales neuronales Modell zu entwickeln.",
+                        " verschiedene neuronale Modelle zu kennen und diese für die jeweilige Anwendung zu "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "beurteilen.Modulhandbuch B. Sc. Informatik 534"
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Mathematische Methoden aus dem Bachelor-Studiengang Informatik",
+                        " Algorithmen und Datenstrukturen",
+                        " Programmierkenntnisse (Programmiersprache frei wählbar)",
+                        " Biologisches Grundverständnis von Vorteil"
+                    ]
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1129-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Hausarbeit"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1129-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Künstliche Intelligenz und Machine Learning"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 535"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "ywurdbagzlvikgtx",
+        "title": "1.1.6. Praktikum in der Lehre - System Security",
+        "uri": "1.1.6.-praktikum-in-der-lehre-system-security",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1100",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Erstellen von Übungs- und Lehrmaterial zu System Security",
+                        " Betreuung von Studierenden"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und/oder dabei auch die Lernenden zu betreuen und anzuleiten."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen: Kenntnisse aus Embedded System Security Vorlesung oder vergleichbarer Vorlesung"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1100-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich der Abgabe von Lehrmaterial)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)Modulhandbuch B. Sc. Informatik 597"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1100-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 598"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "wehvteshxdkjbwdc",
+        "title": "1.1.7. Praktikum in der Lehre - Graphische Datenverarbeitung I",
+        "uri": "1.1.7.-praktikum-in-der-lehre-graphische-datenverarbeitung-i",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1101",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Das Erstellen von Lehrmaterial, die Beurteilung und Betreuung von Übungen."
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und dabei auch die Lernenden zu betreuen und anzuleiten."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen wird: "
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Besuch der Veranstaltung \"Graphische Datenverarbeitung I\" mit sehr guter "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Abschlussnote"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Programmierkenntnisse in C++ und OpenGL"
+                    ]
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1101-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich der Abgabe von Lehrmaterial)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 599Bausteinbegleitende Prüfung: [20-00-1101-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 600"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "lxvneapqhcoqldbe",
+        "title": "Praktikum in der Lehre - Foundations of Language Technology (FOLT)",
+        "uri": "praktikum-in-der-lehre-foundations-of-language-technology-(folt)",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1110",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. ",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Vorbereitung, Abhalten und Korrektur eines Shared Tasks, Anbieten von Sprechstunden für die Lerninhalte, Halten von Tutorien, und vergleichbare Aufgaben für die Lehre"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach Abschluss der Veranstaltung sind die Studierenden in der Lage, eigenständig ein Tutorium zu veranstalten, eine Shared Task vorzubereiten und vergleichbare Aufgaben der Lehre zu übernehmen."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen wird das vorherige Belegen von 'Foundations of Language Technology' (FOLT) oder vergleichbarer Kurse (z.B. 'Deep Learning for Natural Language Processing' (DL4NLP))"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1110-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich der Abgabe von Lehrmaterial)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1110-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Künstliche Intelligenz und Machine Learning",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 602"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "rvdrfmsxbqpjlusv",
+        "title": "Praktikum in der Lehre - Technische Informatik",
+        "uri": "praktikum-in-der-lehre-technische-informatik",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1111",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2.",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "list",
+                    "data": [
+                        " Erstellen von Übungs- und Lehrmaterial zu Veranstaltungen der Technischen Informatik",
+                        " Betreuung von Studierenden zu Themen der Technischen Informatik, insbesondere "
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "unter Verwendung des neuen Lehrmaterials"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Nach erfolgreichem Absolvieren der Veranstaltung sind die Studierenden in der Lage, selbständig Lehrmaterialien zu Informatikthemen zu erstellen. Sie können das Material in Schulungen erfolgreich einsetzen und seine didaktische Wirksamkeit kritisch beurteilen. Sie können Studierende in direktem persönlichen Kontakt, aber auch über elektronische Kommunikationsmedien anleiten und betreuen."
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen werden Kenntnisse aus Digitaltechnik, Rechnerorganisation, Architekturen und Entwurf von Rechnersystemen etc. (oder vergleichbaren Veranstaltungen)"
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1111-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich der Abgabe von Lehrmaterial)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)Modulhandbuch B. Sc. Informatik 603"
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1111-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 604"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "soaqtodjokbtlccf",
+        "title": "Praktikum in der Lehre - Visuelle Inferenz",
+        "uri": "praktikum-in-der-lehre-visuelle-inferenz",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1131",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes Semester",
+            "language": [
+                "de",
+                "en"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Erstellung von Übungs- und Vorlesungsmaterial zu Lehrveranstaltungen des FG Visuelle Inferenz"
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Studierende sind in der Lage:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        "Lehrinhalte in Übungen zu präsentieren und zu erklären",
+                        "Praktikumsgruppen zu betreuen",
+                        "Methoden zur Kontrolle des Lernerfolgs systematisch anzuwenden"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen wird die erfolgreiche Teilnahme an den Vorlesungen 'Computer Vision' und/oder 'Computer Vision II' oder vergleichbaren Veranstaltungen, je nach Semester."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1131-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich der Abgabe von Lehrmaterial)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: Modulhandbuch B. Sc. Informatik 605 [20-00-1131-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Künstliche Intelligenz und Machine Learning",
+                        "M.Sc. Computer Science"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 606"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "mhrxyvznjoybkvdx",
+        "title": "Praktikum in der Lehre - Einführung in die Künstliche Intelligenz",
+        "uri": "praktikum-in-der-lehre-einf-hrung-in-die-k-nstliche-intelligenz",
+        "course": {
+            "cp": 5,
+            "sws": 150,
+            "self_study": 105,
+            "id": "20-00-1132",
+            "organizer": "Studiendekan/Studiendekanin",
+            "turnus": "Jedes 2. Semester",
+            "language": [
+                "de"
+            ],
+            "examination_type": "Studienleistung"
+        },
+        "tutors": [],
+        "module": {
+            "content": [
+                {
+                    "type": "paragraph",
+                    "data": "Dieser Kurs befasst sich mit damit Lehrinhalte des Themenschwerpunktes künstliche Intelligenz didaktisch aufzubereiten und durch begleitende praktische Übungen besser verständlich zu machen.Dies umfasst unter anderem:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Praxisnahe Übungsformen konzipieren und erstellen",
+                        " Anbieten von Sprechstunden",
+                        " Betreuung von Studierenden",
+                        " Korrektur von Übungsabgaben",
+                        " Unterstützung bei der Organisation und Durchführung der Übungen",
+                        " Vorschläge zur Verbesserung der Qualität der Lehre einzubringen"
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "type": "paragraph",
+                    "data": "Studierende können nach erfolgreicher Durchführung der Veranstaltung:"
+                },
+                {
+                    "type": "list",
+                    "data": [
+                        " Praxisnahe Übungsformen konzipieren und erstellen",
+                        " Lehrinhalte aus der Vorlesung für Haus- und Präsenzübungen aufbereiten",
+                        " Studentengruppen didaktisch unterstützen",
+                        " Bestehende Lehrmaterialien kritisch hinterfragen und Verbesserungsvorschläge einbringen",
+                        " Methoden der Lernkontrolle für die Lerninhalte der Vorlesung anwenden"
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "type": "paragraph",
+                    "data": "Empfohlen wird die erfolgreiche Absolvierung der Veranstaltung 'Einführung in die Künstliche Intelligenz' oder entsprechende Kenntnisse."
+                }
+            ],
+            "exam": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1132-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard)Modulhandbuch B. Sc. Informatik 607Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen.Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich der Abgabe von Lehrmaterial)"
+                }
+            ],
+            "pass_requirement": [
+                {
+                    "type": "paragraph",
+                    "data": "Bestehen der Prüfung (100%)."
+                }
+            ],
+            "grading": [
+                {
+                    "type": "paragraph",
+                    "data": "Bausteinbegleitende Prüfung: [20-00-1132-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, Standard)"
+                }
+            ],
+            "useable_for_degree": [
+                {
+                    "type": "list",
+                    "data": [
+                        "B.Sc. Informatik",
+                        "M.Sc. Informatik",
+                        "M.Sc. Künstliche Intelligenz und Machine Learning"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "data": "Kann in anderen Studiengängen verwendet werden."
+                }
+            ],
+            "literature": [],
+            "comment": [
+                {
+                    "type": "paragraph",
+                    "data": "Modulhandbuch B. Sc. Informatik 608ModulhandbuchB. Sc. InformatikBachelorarbeitModulhandbuch B. Sc. Informatik 609"
+                }
+            ]
+        }
+    }
+]

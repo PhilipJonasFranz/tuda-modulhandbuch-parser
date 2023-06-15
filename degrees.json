@@ -1,0 +1,393 @@
+{
+    "degrees": [
+        {
+            "_id": "1O7kevan3U2jyDdX8bDyHgMYnKWB",
+            "title": "Alle Module",
+            "po": "",
+            "color": "0xFF07BEDE",
+            "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": []
+        },
+        {
+            "_id": "Xv0nliQjSNXZuW4CAsisvqzDEnO4",
+            "title": "B.Sc. Informatik",
+            "po": "2015",
+            "color": "0xFFA93DDC",
+            "image": "https://images.unsplash.com/photo-1505424297051-c3ad50b055ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80",
+            "semesters": [
+                {
+                    "modules": [
+                        "gvctlSgrzoPVLPntugLp3PTZj98t",
+                        "Ttc5Lbrs6P57EUmzbLmpIZRYkNqw",
+                        "D56wUhLLHFN2Y5GwVHiBKyspqDDL",
+                        "fuwbzV169Rlah2LXvSxhh4nHYUjZ",
+                        "WQBZc9b8fmTgkkKuxyViFjWco8TL"
+                    ]
+                },
+                {
+                    "modules": [
+                        "0SrVhy2rpaoNrzdssFcR12d476zY",
+                        "3qdLMv3gt2U2ENKNUDu3wYRO2AM2",
+                        "5kZEAyAHStirGY6h1ohl6U2cWH9n",
+                        "ufraMLCIhK22fm2j7fVqkBrQnNDX"
+                    ]
+                },
+                {
+                    "modules": [
+                        "rkWoBv8n2M5mH42Bsb7LpvyxidgX",
+                        "hvj3OGcP5KAc6YOhRV2iJtc3rOL2",
+                        "1SFJH8xLsZgw4dzJjpTAkk6Ei1UO",
+                        "JD2qx7BYVrAX2IxqHIfsqcBlYpWL",
+                        "q3aBLrWDtRKY50dMOjLKmb3eYq5S",
+                        "kRu2yTZdydic2b7ZcHX8dBmPAJsI"
+                    ]
+                },
+                {
+                    "modules": [
+                        "PEO0p6CeujXMoQTXPWVNBXj6VZ93",
+                        "XyA01kdHn7n0OjcMfbv9jOCKKbh7",
+                        "x3XaGLsp3UE4uZVTDupwlbrXS8Wi",
+                        "XzR716FxqFsxu7X8tWGvjiXXt8zS",
+                        "pbaj7Z4l3vRwbG8KTM5iWLGAnY8A"
+                    ]
+                },
+                {
+                    "modules": [
+                        "jhT2SlpGy7lrykJby4hSU536FuCe",
+                        "ZucD2NC5PwYEObXutqPJM7rfeoRK",
+                        "UGMrhQhFyTAxO3cE8rpZDwLPAl3h"
+                    ]
+                },
+                {
+                    "modules": [
+                        "ui3VfqhfRd40Un6kdHyKhxkNNCnE"
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "3d3lbvJLJ8ReD8vjDH2mb2JHPZLA",
+            "title": "M.Sc. Informatik",
+            "po": "2015",
+            "color": "0xFFE4DE45",
+            "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "WRXK4Hj9MdbMHrfGONNynchN4lcd",
+            "title": "M.Sc. IT Sicherheit",
+            "po": "",
+            "color": "0xFFE7BA47",
+            "image": "https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "HCoz6WlGJHMF6r2zqDa0BiM0GIRa",
+            "title": "M.Sc. Robotik",
+            "po": "",
+            "color": "0xFF3D3AD1",
+            "image": "https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "v2P4miJzVXH2zHwDxyiduQisJ7XF",
+            "title": "M.Sc. KI und ML",
+            "po": "",
+            "color": "0xFFF07373",
+            "image": "https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "CTFWSoIfchJWK20fNGLvoweg0jkJ",
+            "title": "M.Sc. Computational Engineering",
+            "po": "",
+            "color": "0xFF43C4D6",
+            "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "OmCZ2tKDFBfNHh4FUiZRjvKQKrq6",
+            "title": "M.Sc. Wirtschaftsinformatik",
+            "po": "",
+            "color": "0xFF6AD13A",
+            "image": "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1746&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "OLySnlC3rMyGdzYJcyJTAjZkaiWX",
+            "title": "M.Sc. Informationssystemtechnik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "3vtSTNYpmjoARy4v6LBXiwKfZAxc",
+            "title": "B.Sc. Informationssystemtechnik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "GWdRvKq9pE0P6qJU99fr3fgAimiX",
+            "title": "B.Sc. Wirtschaftsinformatik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "gnM6T1gcaJushaj4lnoX9igPnDKD",
+            "title": "B.Sc. Computational Engineering",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "3O769HkLJnUAIFO8shqz16p8o3gu",
+            "title": "B.Sc. Sportwissenschaft und Informatik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "IVR94TnrMgBEs4gjI1OfsiMpp2Vw",
+            "title": "B.Sc. Psychologie in IT",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "r4gwz2zvu4l0DyljHZfFGMUquLh9",
+            "title": "Joint B.A. Informatik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "0kvhAPdnsiEZr7rzkduoeWrdftts",
+            "title": "M.Sc. Sportwissenschaft und Informatik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "4SM0pbXfSIvwjtjMv4BhsEVOsUYh",
+            "title": "M.Sc. Internet- und Web-basierte Systeme",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "uzQ5JF3znF6BqI6szQskKEALX6vG",
+            "title": "M.Sc. Visual Computing",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "CnpZr73OurGM895BfdCC9qi0qQdv",
+            "title": "M.Sc. Verteilte Systeme",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "8vtRIjlIX3S4QqNinqRGgWGn2tz1",
+            "title": "M.Sc. Autonome Systeme",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "k4woNFPu2HqjaB1MfNKM6WE58FwM",
+            "title": "B.Sc. Computer Science",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "hlKfZQzPy5LmtpavS6mw64wg7P1m",
+            "title": "B.Sc. Elektrotechnik und Informationstechnik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "e60JAdZTPzVKKL0VyLtQwRV6slwI",
+            "title": "M.Sc. Wirtschaftsingenieurwesen - Fachrichtung Elektrotechnik und Informationstechnik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "HUQceoPkzJFEbPdfc1eJJGpIX1pi",
+            "title": "M.Sc. Wirtschaftsingenieurwesen - Fachrichtung Computer Science",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "cU2wQC5ZWOaNJsQSMoAF1Hm83luK",
+            "title": "M.Sc. Elektrotechnik und Informationstechnik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "PCfJKxxJElJ62lZQvTdWqM3ZkCN7",
+            "title": "M.Sc. Computer Science",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "NkLA2ljwkA5SeQv4bc8SPY2kmp6a",
+            "title": "M.Sc. Psychologie in IT",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "dbB0JDscz8A3bLDZ9d2YDEU6jS1r",
+            "title": "M.Sc. Mechatronik",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        },
+        {
+            "_id": "6HCtGVZb26NrmHWFX7OQgJuWAGr2",
+            "title": "M.Sc. Information and Communication Engineering",
+            "po": "",
+            "color": "0xFF8225ED",
+            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "semesters": [
+                {
+                    "modules": []
+                }
+            ]
+        }
+    ]
+}
